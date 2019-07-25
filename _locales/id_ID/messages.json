@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Mode pilihan"
+  },
+  "assistant_select_element_ext":{
+    "message":"Klik pada setiap unsur pada halaman "
+  },
+  "assistant_select_element_cancel":{
+    "message":"Batalkan mode pemilihan"
+  },
+  "assistant_block_element":{
+    "message":"Blok elemen"
+  },
+  "assistant_block_element_explain":{
+    "message":"Mengatur pemblokiran unsur"
+  },
+  "assistant_extended_settings":{
+    "message":"Setelan lanjutan"
+  },
+  "assistant_rule_parameters":{
+    "message":"Parameter aturan"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Terapkan aturan ini ke setiap situs"
+  },
+  "assistant_block_by_reference":{
+    "message":"Blokir unsur menurut url"
+  },
+  "assistant_block_similar":{
+    "message":"Blokir unsur-unsur yang serupa"
+  },
+  "assistant_block":{
+    "message":"Blokir"
+  },
+  "assistant_another_element":{
+    "message":"Pilih unsur lain"
+  },
+  "assistant_preview":{
+    "message":"Tinjauan"
+  },
+  "assistant_preview_start":{
+    "message":"Tinjauan"
+  },
+  "assistant_preview_end":{
+    "message":"Menyelesaikan Tinjauan"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Iklan yang diblokir di laman ini: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Pemblokir iklan"
+  },
+  "options_antibanner_info":{
+    "message":"Jumlah aturan filter: $1"
+  },
+  "options_whitelist":{
+    "message":"Whitelist"
+  },
+  "options_modal_cancel":{
+    "message":"Batal"
+  },
+  "options_modal_homepage":{
+    "message":"Halaman Awal"
+  },
+  "options_userfilter":{
+    "message":"Filter pengguna"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Tambah aturan baru"
+  },
+  "options_userfilter_export":{
+    "message":"Ekspor"
+  },
+  "options_userfilter_import":{
+    "message":"Impor"
+  },
+  "options_userfilter_clear":{
+    "message":"Bersihkan"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Membersihkan filter pengguna menghapus semua aturan. Apakah Anda benar-benar ingin menghapus filter pengguna?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Membersihkan whitelist akan menghapus semua aturan. Apakah anda yakin ingin membersihkan whitelist?"
+  },
+  "options_filter_version":{
+    "message":"Versi $1. Dibarui $2 pada pukul $3."
+  },
+  "options_popup_update_title":{
+    "message":"Filter berhasil diperbarui"
+  },
+  "options_popup_update_not_found":{
+    "message":"Tidak ada pembaruan yang ditemukan"
+  },
+  "options_popup_update_error":{
+    "message":"Gagal untuk mendapatkan pembaruan. Silakan coba sesaat lagi."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" diperbarui ke versi $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Blok iklan di situs ini"
+  },
+  "popup_security_report":{
+    "message":"Laporan keamanan situs web"
+  },
+  "popup_open_settings":{
+    "message":"Pengaturan Adblocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Adblocker Ultimate proteksi dijeda"
+  },
+  "popup_site_filtering_state":{
+    "message":"Proteksi situs web ini"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Blok iklan pada situs web"
+  },
+  "popup_security_report_android":{
+    "message":"Laporan keamanan"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Proteksi dijeda"
+  },
+  "popup_open_log_android":{
+    "message":"Memfilter log"
+  },
+  "popup_tab_blocked":{
+    "message":"Diblokir: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Total: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Iklan telah dihapus dari Halaman ini"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Diproteksi oleh $1"
+  },
+  "context_block_site_ads":{
+    "message":"Blok iklan di situs web ini..."
+  },
+  "context_block_site_element":{
+    "message":"Blok Elemen..."
+  },
+  "context_abuse_site":{
+    "message":"Kirim keluhan tentang situs web ini..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Iklan telah dihapus dari Halaman ini"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Diproteksi oleh $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate tidak dapat berjalan pada domain ini"
+  },
+  "context_site_protection_disabled":{
+    "message":"AdBlocker Ultimate perlindungan dijeda"
+  },
+  "context_open_settings":{
+    "message":"Pengaturan Adblocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Situs web ini adalah pengecualian"
+  },
+  "context_site_filtering_on":{
+    "message":"Aktifkan filtering pada situs web ini"
+  },
+  "context_site_filtering_off":{
+    "message":"Nonaktifkan filtering pada situs web ini"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Periksa pembaruan filter"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Auto-aktivasi filter"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» telah diaktifkan secara otomatis"
+  },
+  "filter_download_title":{
+    "message":"Filter database sedang dimuat..."
+  },
+  "filter_download_loading":{
+    "message":"Harap tunggu sebentar filter database sedang dimuat..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate untuk Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate untuk Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: Apakah Anda ingin Aktifkan berlangganan $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: Apakah Anda ingin impor aturan dari $1 ke filter pengguna Anda?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Mengimpor telah selesai"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate telah selesai mengimpor aturan untuk pengguna filter. Impor peraturan nomor: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Diaktifkan<\/strong> pada situs ini"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Dinonaktifkan<\/strong> pada situs ini"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> pada Halaman ini"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> Total"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Tampilkan nomor di ikon"
+  },
+  "browser_action_popup_options":{
+    "message":"Opsi"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Blok elemen"
+  },
+  "browser_action_popup_donate":{
+    "message":"Donasi"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Iklan yang diblokir"
+  },
+  "options_title":{
+    "message":"Opsi AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Daftar Filter"
+  },
+  "options_add_your_filters":{
+    "message":"Tambahkan filter sendiri"
+  },
+  "options_whitelisted_domains":{
+    "message":"Domain whitelisted"
+  },
+  "options_general":{
+    "message":"Umum"
+  },
+  "options_enable_only":{
+    "message":"Aktifkan hanya daftar filter yang anda diperlukan. Terlalu banyak dapat membuat browser menjadi tidak responsif."
+  },
+  "options_out_of_date_lists":{
+    "message":"Daftar lama akan diperbaharui secara berkala."
+  },
+  "options_enabled":{
+    "message":"Diaktifkan"
+  },
+  "options_please_choose":{
+    "message":"Silakan pilih filter berlangganan dari daftar:"
+  },
+  "options_add":{
+    "message":"Tambahkan"
+  },
+  "options_subscription_title":{
+    "message":"Judul langganan:"
+  },
+  "options_filter_list_location":{
+    "message":"Menyaring daftar Lokasi:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate dinonaktifkan untuk domain yang tercantum di bawah ini. Anda dapat menambahkan domain melalui ikon AdBlocker Ultimate atau mengetik domain (yang bukan URL) di kotak dan klik tombol \"Tambahkan domain\"."
+  },
+  "options_add_domain":{
+    "message":"Tambahkan domain"
+  },
+  "options_remove_selected":{
+    "message":"Hapus yang dipilih"
+  },
+  "options_apply_changes":{
+    "message":"Terapkan Perubahan"
+  },
+  "options_show_block_element":{
+    "message":"Tampilkan 'Blok elemen' Klik kanan menu item"
+  },
+  "options_show_useful_notifications":{
+    "message":"Tampilkan pemberitahuan berguna"
+  },
+  "options_update_now":{
+    "message":"Perbaharui sekarang"
+  },
+  "options_add_filter_subscription":{
+    "message":"Tambahkan filter langganan"
+  },
+  "options_delete":{
+    "message":"Hapus"
+  },
+  "options_add_filter":{
+    "message":"Tambah Filter"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Blokir unsur menurut url"
+  },
+  "description":{
+    "message":"Pemblokir iklan gratis dan ditingkatkan. Menghapus semua iklan. Tidak ada \"diterima\" iklan atau iklan masuk whitelist, blok pelacakan, blok malware!"
+  },
+  "shield_dont_show_again":{
+    "message":"Jangan tampilkan pesan ini lagi"
+  },
+  "shield_congrats":{
+    "message":"Selamat!"
+  },
+  "shield_congratulations":{
+    "message":"Selamat!"
+  },
+  "shield_got_no_ads":{
+    "message":"tidak ada iklan terima kasih kepada"
+  },
+  "shield_to_unlock":{
+    "message":"untuk membuka"
+  },
+  "shield_gold_shield":{
+    "message":"perisai emas"
+  },
+  "shield_silver_shield":{
+    "message":"perisai perak"
+  },
+  "shield_bronze_shield":{
+    "message":"perisai perunggu"
+  },
+  "shield_share_abu":{
+    "message":"Bagikan AdBlocker utama:"
+  },
+  "shield_you_won":{
+    "message":"anda menang"
+  },
+  "shield_blocked_ads":{
+    "message":"iklan terblokir"
+  },
+  "shield_rate_us":{
+    "message":"Menilai kami"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Berkontribusi pada proyek kami"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"kami memblokir lebih dari $1 iklan untuk Anda dan:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"penurunan waktu buka halaman Anda sebesar $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"mengurangi penggunaan CPU puncak dengan $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"mengurangi penggunaan memori sebesar $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"tidak ada iklan dengan adblocker gratis  kami "
+  },
+  "store_ss_surf_faster":{
+    "message":"Berselancar lebih cepat, lebih aman, lebih bersih, tanpa iklan yang mengganggu!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Тidak ada Iklan video"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Tidak ada lagi iklan Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Tidak ada lagi spanduk iklan"
+  },
+  "store_ss_ads":{
+    "message":"iklan"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Berselancar, lebih cepat, lebih aman TANPA IKLAN"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"dan semua iklan yang mengganggu keluar!"
+  }
+}

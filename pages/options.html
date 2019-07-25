@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="skin/options.css" rel="stylesheet">
+<title i18n="options_title"></title>
+
+        <script type="text/javascript" src="../lib/libs/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src="../lib/libs/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../lib/libs/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="../lib/libs/jquery.jscrollpane.min.js"></script>
+        <script type="text/javascript" src="../lib/content-script/adguard-content.js"></script>
+        <script type="text/javascript" src="../lib/libs/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="../lib/libs/moment-with-locales.min.js"></script>
+        <script type="text/javascript" src="../lib/content-script/common-script.js"></script>
+        <script type="text/javascript" src="../lib/content-script/content-script.js"></script>
+        <script type="text/javascript" src="../lib/content-script/content-utils.js"></script>
+        <script type="text/javascript" src="../lib/content-script/i18n-helper.js"></script>
+        <script type="text/javascript" src="../lib/pages/i18n.js"></script>
+        <script type="text/javascript" src="../lib/pages/script.js"></script>
+        <script type="text/javascript" src="../lib/pages/options.js"></script>
+
+<style type="text/css" media="screen">
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 20px;
+}
+.subButton{
+  width: 280px!important;
+}
+td
+{
+  font-size: 13px;
+  vertical-align: top;
+  text-align: left;
+}
+
+p
+{
+  margin-top: 0.5em;
+}
+.addButton{
+  width: 240px;
+}
+button
+{
+  white-space: pre;
+}
+
+#subscriptionTemplate,
+#addSubscriptionContainer,
+#customSubscriptionContainer
+{
+  display: none;
+}
+
+#acceptableAdsContainer
+{
+  margin-top: 10px;
+}
+
+#acceptableAdsLink,
+#acceptableAdsDocs
+{
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.subscription
+{
+  margin: 3px 0px;
+}
+
+.subscriptionRemoveButton,
+.subscriptionEnabledContainer,
+.subscriptionTitle
+{
+  margin-right: 1em;
+}
+
+.subscriptionRemoveButton
+{
+  font-weight: normal !important;
+  font-size: 20px !important;
+  color: #FF0000 !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+}
+
+.subscriptionUpdate
+{
+  color: #B0B0B0;
+}
+.subscriptionUpdate.error
+{
+  color: #FF0000;
+}
+
+#rawFilters {
+  display: none;
+}
+
+.okMsg {
+    display: none;
+    color: #ffffff;
+    background: #30e030;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.errMsg {
+    display: none;
+    color: #ffffff;
+    background: #e03030;
+    font-weight:bold;
+    padding:3px;
+}
+
+/* Filter list entry status message */
+.flMsg {
+    display: none;
+    color: #b0b0b0;
+}
+
+.focused
+{
+  box-shadow: 0px 0px 10px #e03030;
+}
+.settings-head{width:1100px;margin:0 auto;}
+</style>
+</head>
+<body>
+<div class="settings-head">
+<table>
+  <tbody><tr>
+    <td style="padding-right: 8px; vertical-align: middle;">
+      <img src="icons/detailed/point.png">
+    </td>
+    <td>
+      <h1><span i18n="options_title"></span></h1>
+    </td>
+  </tr>
+</tbody></table>
+</div>
+<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+  <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+    <li class="ui-state-default ui-corner-top ui-state-active"><a href="#tab-filterlists"><span i18n="options_filter_list"></span></a></li>
+    <li class="ui-state-default ui-corner-top"><a href="#tab-userfilters"><span i18n="options_add_your_filters"></span></a></li>
+    <li class="ui-state-default ui-corner-top"><a href="#tab-whitelisted"><span i18n="options_whitelisted_domains"></span></a></li>
+    <!--
+    <li class="ui-state-default ui-corner-top"><a href="#tab-general"><span i18n="options_general"></span></a></li>
+    -->
+  </ul>
+
+  <div id="tab-filterlists" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+    <p>
+      <span i18n="options_enable_only"></span>
+    </p>
+    <p>
+      <span i18n="options_out_of_date_lists"></span>
+	  <button id="updateAntiBannerFilters" class="refreshButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-refresh"></span><span class="ui-button-text"><span i18n="options_update_now"></span></span></button><br>
+	  
+      <!-- Subscription entry template -->
+      </p><div id="subscriptionTemplate" class="subscription">
+        <button class="i18n_filters_subscription_delete_label subscriptionRemoveButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span i18n="options_delete"></span></button>
+        <label class="subscriptionEnabledContainer">
+          <input class="subscriptionEnabled" type="checkbox"> <span i18n="options_enabled"></span>
+        </label>
+        <a class="subscriptionTitle"></a>
+        <span class="subscriptionUpdate"></span>
+      </div>
+
+		<div id="antiBannerFiltersList"></div>
+      <!-- Placeholder for list of subscriptions -->
+      
+      <br>
+
+      <!-- Placeholder for user's filter list URLs -->
+      <div id="userFilterLists" style="margin-bottom: 8px"></div>
+
+      <p id="addSubscriptionButton">
+        <button id="startSubscriptionSelection" class="editAntiBannerFilters addButton subButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-plus"></span><span class="ui-button-text"><span i18n="options_add_filter_subscription"></span></span></button>
+      </p>
+      <div id="addSubscriptionContainer">
+        <span i18n="options_please_choose"></span><br>
+        <select id="subscriptionSelector" style="width:500px">
+</select>
+        <button id="addSubscription" class="addButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-plus"></span><span class="ui-button-text"><span i18n="options_add"></span></span></button>
+      </div>
+      <div id="customSubscriptionContainer">
+        <p>
+          <span i18n="options_subscription_title"></span><br>
+          <input type="text" id="customSubscriptionTitle" style="width:500px">
+        </p>
+        <p>
+          <span i18n="options_filter_list_location"></span><br>
+          <input type="text" id="customSubscriptionLocation" style="width:500px">
+        </p>
+      </div>
+    <p></p>
+  </div>
+
+  <div id="tab-whitelisted" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+    <p i18n="options_abu_is_disabled"></p>
+
+    <form id="whitelistForm" action="#">
+    <table>
+      <tbody><tr>
+        <td style="max-width:100%">
+          <input type="text" value="" id="newWhitelistDomain" style="width:100%">
+        </td>
+        <td>
+          <button id="addWhitelist" class="addButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-plus"></span><span class="ui-button-text"><span i18n="options_add_domain"></span></span></button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <select id="excludedDomainsBox" size="10" multiple="" style="width:500px; background: white;"></select>
+        </td>
+        <td>
+          <button id="removeWhitelist" class="removeButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-minus"></span><span class="ui-button-text" ><span i18n="options_remove_selected"></span></span></button>
+        </td>
+      </tr>
+    </tbody></table>
+    </form>
+  </div>
+
+  <div id="tab-userfilters" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+    <p id="filter-must-follow-syntax" class="i18n_filter_must_follow_syntax"></p>
+
+    <form id="customFilterForm" action="#">
+    <table>
+      <tbody><tr>
+        <td>
+          <input type="text" value="" id="newFilter" style="width:500px">
+        </td>
+        <td>
+          <button id="addCustomFilter" class="addButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-plus"></span><span class="ui-button-text"><span i18n="options_add_filter"></span></span></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select id="userFiltersBox" size="20" multiple="" style="width: 500px; background: white;"></select>
+        </td>
+        <td>
+          <button id="removeCustomFilter" class="removeButton ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-minus"></span><span class="ui-button-text"><span i18n="options_remove_selected"></span></span></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+		<!--
+          <div style="font-size: 90%; text-align: right"><a id="rawFiltersButton" href="#"><span class="i18n_edit_filters_raw">Edit filters as raw text</span></a></div>
+		  -->
+        </td>
+      </tr>
+      <tr id="rawFilters">
+        <td>
+          <div style="width: 500px">
+            <textarea id="rawFiltersText" style="width: 100%; height: 300px"></textarea>
+          </div>
+        </td>
+        <td>
+          <div><button id="importRawFilters" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text"><span i18n="options_apply_changes"></span></span></button></div>
+        </td>
+      </tr>
+    </tbody></table>
+    </form>
+  </div>
+
+  <div id="tab-general" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+    <p>
+      </p>
+
+<!--
+      <div id="shouldShowBlockElementMenuContainer">
+        <input type="checkbox" id="shouldShowBlockElementMenu"><label for="shouldShowBlockElementMenu" i18n="options_show_block_element"></label>
+      </div>
+      -->
+      <div id="shouldShowNotificationsContainer" data-section="notifications" hidden="">
+        <input type="checkbox" id="shouldShowNotifications"><label for="shouldShowNotifications" i18n="options_show_useful_notifications"></label>
+      </div>
+    <p></p>
+<!--
+    <p id="found-a-bug" class="i18n_found_a_bug"></p>
+-->
+  </div>
+</div>
+
+
+
+</body></html>

@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Mod de selectare"
+  },
+  "assistant_select_element_ext":{
+    "message":"Faceti click pe orice element de pe pagina sau "
+  },
+  "assistant_select_element_cancel":{
+    "message":"anulati modul de selectare"
+  },
+  "assistant_block_element":{
+    "message":"Blocati element"
+  },
+  "assistant_block_element_explain":{
+    "message":"Organizarea regurilor de blocare a elemetelor"
+  },
+  "assistant_extended_settings":{
+    "message":"Setari avansate..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Parametrii regulilor"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Aplica aceasta regula fiecarui site web"
+  },
+  "assistant_block_by_reference":{
+    "message":"Blocati element dupa url"
+  },
+  "assistant_block_similar":{
+    "message":"Blocati elemente similare"
+  },
+  "assistant_block":{
+    "message":"Blocati"
+  },
+  "assistant_another_element":{
+    "message":"Selectaţi un alt element"
+  },
+  "assistant_preview":{
+    "message":"Previzualizare"
+  },
+  "assistant_preview_start":{
+    "message":"Previzualizare"
+  },
+  "assistant_preview_end":{
+    "message":"Terminati previzualizarea"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Reclame blocate pe aceasta pagina: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Ad blocker"
+  },
+  "options_antibanner_info":{
+    "message":"Reguli de filtrare: $1"
+  },
+  "options_whitelist":{
+    "message":"Lista alba"
+  },
+  "options_modal_cancel":{
+    "message":"Anulati"
+  },
+  "options_modal_homepage":{
+    "message":"Pagina de start"
+  },
+  "options_userfilter":{
+    "message":"Filtrele utilizatorului"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Adaugati o noua regula"
+  },
+  "options_userfilter_export":{
+    "message":"Exportati"
+  },
+  "options_userfilter_import":{
+    "message":"Importati"
+  },
+  "options_userfilter_clear":{
+    "message":"Stergeti"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Stergerea filtrelor utilizatorului va elimina toate regulile. Chiar vreti sa stergeti filtrele utilizatorului?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Stergerea listei albe va elimina toate regulile. Chiar vreti sa stergeti lista alba?"
+  },
+  "options_filter_version":{
+    "message":"Versiunea $1. Actualizata la $2 ora $3."
+  },
+  "options_popup_update_title":{
+    "message":"Filtrele au fost actualizate cu succes"
+  },
+  "options_popup_update_not_found":{
+    "message":"Nu am gasit actualizari"
+  },
+  "options_popup_update_error":{
+    "message":"Eroare la actualizare. Incercati mai tarziu."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" a fost actualizat la versiunea $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Blocati reclamele pe acest site"
+  },
+  "popup_security_report":{
+    "message":"Raport de securite al site-ului"
+  },
+  "popup_open_settings":{
+    "message":"Setari AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Protectia AdBlocker Ultimate este oprita temporar"
+  },
+  "popup_site_filtering_state":{
+    "message":"Protectie pe acest site"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Blocati reclame pe un site"
+  },
+  "popup_security_report_android":{
+    "message":"Raport de securitate"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Protecţia este oprită temporar"
+  },
+  "popup_open_log_android":{
+    "message":"Jurnal de filtrare"
+  },
+  "popup_tab_blocked":{
+    "message":"Blocate: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Total: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Reclamele au fost eliminate de pe această pagină"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Protejat de $1"
+  },
+  "context_block_site_ads":{
+    "message":"Blocati reclama pe acest site..."
+  },
+  "context_block_site_element":{
+    "message":"Blocati element..."
+  },
+  "context_abuse_site":{
+    "message":"Depuneti o plângere despre acest site..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Reclamele au fost eliminate de pe această pagină"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Protejat de $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate nu poate rula pe acest domeniu"
+  },
+  "context_site_protection_disabled":{
+    "message":"Protectia AdBlocker Ultimate este oprita temporar"
+  },
+  "context_open_settings":{
+    "message":"Setări AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Acest site este în lista de excepţii"
+  },
+  "context_site_filtering_on":{
+    "message":"Permite filtre pe acest site"
+  },
+  "context_site_filtering_off":{
+    "message":"Dezactivarea filtrelor pe acest site"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Verificați actualizări pentru filtre"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Auto-activarea filtrelor"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» a fost activat automat"
+  },
+  "filter_download_title":{
+    "message":"Baza de date a filtrelor se incarca..."
+  },
+  "filter_download_loading":{
+    "message":"Te rugăm să aștepți în timp baza de date se încarcă..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate pentru Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate pentru Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: vreti sa activati subscriptia de $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: vreti sa importati regulile din $1 in filtrul utilizatorului?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Importarea s-a finalizat cu succes"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate a terminat importarea reguli in filtrul utilizatorului. Reguli importate: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Activat<\/strong> pe acest site"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Dezactivat<\/strong> pe acest site"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> pe această pagină"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> în total"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Aratati numarul in inconita"
+  },
+  "browser_action_popup_options":{
+    "message":"Opțiuni"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Blocati element"
+  },
+  "browser_action_popup_donate":{
+    "message":"Donează"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Reclame blocate"
+  },
+  "options_title":{
+    "message":"Optiuni AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Listă de filtre"
+  },
+  "options_add_your_filters":{
+    "message":"Adăugați propriile filtre"
+  },
+  "options_whitelisted_domains":{
+    "message":"Domenii permise"
+  },
+  "options_general":{
+    "message":"Setări generale"
+  },
+  "options_enable_only":{
+    "message":"Folosiţi doar listele de filtre de care aveţi nevoie. Prea multe vor afecta browser-ul."
+  },
+  "options_out_of_date_lists":{
+    "message":"Listele vechi sunt actualizate periodic."
+  },
+  "options_enabled":{
+    "message":"Activat"
+  },
+  "options_please_choose":{
+    "message":"Alegeți să vă înscrieți la un filtru din lista următoare:"
+  },
+  "options_add":{
+    "message":"Adăugați"
+  },
+  "options_subscription_title":{
+    "message":"Titlul abonamentului:"
+  },
+  "options_filter_list_location":{
+    "message":"Locaţia listei de filtre:"
+  },
+  "options_abu_is_disabled":{
+    "message":"Adblocker Ultimate este dezactivat pentru domeniile listate de mai jos. Puteți adăuga un nou domeniu fie prin intermediul simbolului Adblocker Ultimate, fie prin tastarea domeniului (nu a adresei URL) în caseta de dialog și apăsând apoi butonul „Adaugă domeniu”."
+  },
+  "options_add_domain":{
+    "message":"Adăugați un domeniu"
+  },
+  "options_remove_selected":{
+    "message":"Ștergeti selecţiile"
+  },
+  "options_apply_changes":{
+    "message":"Aplicati modificările"
+  },
+  "options_show_block_element":{
+    "message":"Aratati itemul \"Blocati Element\" din meniul de click dreapta"
+  },
+  "options_show_useful_notifications":{
+    "message":"Afișare notificări utile"
+  },
+  "options_update_now":{
+    "message":"Actualizaţi acum"
+  },
+  "options_add_filter_subscription":{
+    "message":"Adaugati abonament filtre"
+  },
+  "options_delete":{
+    "message":"Ștergeți"
+  },
+  "options_add_filter":{
+    "message":"Adăugare filtru"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Blocati element dupa url"
+  },
+  "description":{
+    "message":"Ad blockerul gratis si imbunatatit. Elimati TOATE reclame. Fara reclame \"acceptabile\" sau agentii permise, blocati urmarirea, blocati malware!"
+  },
+  "shield_dont_show_again":{
+    "message":"Nu mai arăta acest mesaj niciodată"
+  },
+  "shield_congrats":{
+    "message":"Felicitări!"
+  },
+  "shield_congratulations":{
+    "message":"Felicitări!"
+  },
+  "shield_got_no_ads":{
+    "message":"nu aveti reclame datorita lui"
+  },
+  "shield_to_unlock":{
+    "message":"pentru a debloca"
+  },
+  "shield_gold_shield":{
+    "message":"scutul de aur"
+  },
+  "shield_silver_shield":{
+    "message":"scutul de argint"
+  },
+  "shield_bronze_shield":{
+    "message":"scutul de bronz"
+  },
+  "shield_share_abu":{
+    "message":"Distribuiti AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"ati castigat"
+  },
+  "shield_blocked_ads":{
+    "message":"reclame blocate"
+  },
+  "shield_rate_us":{
+    "message":"Evaluează-ne"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Contribuie la proiectul nostru"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"am blocat mai mult de $1 reclame pentru tine şi:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"am scazut timpul de incarcare al paginii cu $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"am redus utilizarea de vârf a procesorului cu $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"am redus utilizarea de vârf a memoriei cu $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Nu mai aveti reclame cu adblockerul nostru gratuit"
+  },
+  "store_ss_surf_faster":{
+    "message":"Navigati mai rapid, mai sigur, mai curat, fără reclamele enervante!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Fara reclame video"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Fara reclame pe Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Fara reclame de tip banner"
+  },
+  "store_ss_ads":{
+    "message":"reclame"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Navigati mai rapid, mai sigur FARA RECLAME"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"şi toate reclamele enervante dispar!"
+  }
+}

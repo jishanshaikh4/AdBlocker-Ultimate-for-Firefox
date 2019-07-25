@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Mode de selecció"
+  },
+  "assistant_select_element_ext":{
+    "message":"Fes click a qualsevol element de la pàgina "
+  },
+  "assistant_select_element_cancel":{
+    "message":"o cancel·la el mode de selecció"
+  },
+  "assistant_block_element":{
+    "message":"Bloqueja l'element"
+  },
+  "assistant_block_element_explain":{
+    "message":"Establiment de normes de bloqueig"
+  },
+  "assistant_extended_settings":{
+    "message":"Opcions avançades..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Paràmetres de les normes"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Aplica aquesta norma a totes les pàgines web"
+  },
+  "assistant_block_by_reference":{
+    "message":"Bloqueja element per url"
+  },
+  "assistant_block_similar":{
+    "message":"Bloqueja elements similars"
+  },
+  "assistant_block":{
+    "message":"Bloqueja"
+  },
+  "assistant_another_element":{
+    "message":"Selecciona un altre element"
+  },
+  "assistant_preview":{
+    "message":"Previsualitza"
+  },
+  "assistant_preview_start":{
+    "message":"Previsualitza"
+  },
+  "assistant_preview_end":{
+    "message":"Finalitza la previsualització"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Anuncis bloquejats a aquesta pàgina: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Bloquejador d'anuncis"
+  },
+  "options_antibanner_info":{
+    "message":"Recompte de regles de filtre: $1"
+  },
+  "options_whitelist":{
+    "message":"Llista blanca"
+  },
+  "options_modal_cancel":{
+    "message":"Cancel·la"
+  },
+  "options_modal_homepage":{
+    "message":"Pàgina d'inici"
+  },
+  "options_userfilter":{
+    "message":"Filtre d'usuari"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Afegeix una nova regla"
+  },
+  "options_userfilter_export":{
+    "message":"Exporta"
+  },
+  "options_userfilter_import":{
+    "message":"Importa"
+  },
+  "options_userfilter_clear":{
+    "message":"Neteja"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Netejar el filtre d'usuari elimina totes les regles. Realment vols netejar el filtre d'usuari?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Netejar la llista banca esborrarà totes les regles. Segur que vols netejar la llista blanca?"
+  },
+  "options_filter_version":{
+    "message":"Versió $1. Actualitzat $2 a $3."
+  },
+  "options_popup_update_title":{
+    "message":"Filtres actualitzats amb èxit"
+  },
+  "options_popup_update_not_found":{
+    "message":"No s'han trobat actualitzacions"
+  },
+  "options_popup_update_error":{
+    "message":"Error a l'hora de descarregar les actualitzacions. Si us plau, torna-ho a intentar més tard."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" actualitzat a versió $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Bloqueja anuncis a aquesta pàgina web"
+  },
+  "popup_security_report":{
+    "message":"Informe de seguretat de la pàgina web"
+  },
+  "popup_open_settings":{
+    "message":"Opcions d'Adblocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"La protecció d'Adblocker Ultimate es troba pausada"
+  },
+  "popup_site_filtering_state":{
+    "message":"Protecció a aquesta pàgina"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Bloqueja anuncis a una pàgina web"
+  },
+  "popup_security_report_android":{
+    "message":"Informe de seguretat"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"La protecció es troba pausada"
+  },
+  "popup_open_log_android":{
+    "message":"Registre de filtratge"
+  },
+  "popup_tab_blocked":{
+    "message":"Bloquejat: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Total: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Els anuncis han estat eliminats d'aquesta pàgina"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Protegit per $1"
+  },
+  "context_block_site_ads":{
+    "message":"Bloqueja anuncis a aquesta pàgina..."
+  },
+  "context_block_site_element":{
+    "message":"Bloqueja element..."
+  },
+  "context_abuse_site":{
+    "message":"Presenta una queixa sobre aquesta pàgina..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Els anuncis han estat eliminats d'aquesta pàgina"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Protegit per $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate no pot executar-se en aquest domini"
+  },
+  "context_site_protection_disabled":{
+    "message":"La protecció d'Adblocker Ultimate es troba pausada"
+  },
+  "context_open_settings":{
+    "message":"Opcions d'AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Aquesta pàgina és a les excepcions"
+  },
+  "context_site_filtering_on":{
+    "message":"Activa el filtratge a aquesta pàgina"
+  },
+  "context_site_filtering_off":{
+    "message":"Desactiva el filtratge a aquesta pàgina"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Busca actualitzacions dels filtres"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Auto-activació dels filtres"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» ha estat activat automàticament"
+  },
+  "filter_download_title":{
+    "message":"La base de dades dels filtres s'està carregant..."
+  },
+  "filter_download_loading":{
+    "message":"Si us plau, espera mentre la base de dades de filtres es carrega..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate per Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate per Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: vols activar la suscripció de $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: vols importar les regles de $1 al teu filtre d'usuari?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"La importació ha finalitzat correctament"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate ha acabat d'importar les normes al filtre d'usuari. Nombre de regles importades: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Activat<\/strong> a aquesta pàgina"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Desactivat<\/strong> a aquest pàgina"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> a aquesta pàgina"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> en total"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Mostra el número a la icona"
+  },
+  "browser_action_popup_options":{
+    "message":"Opcions"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Bloqueja l'element"
+  },
+  "browser_action_popup_donate":{
+    "message":"Fes una donació"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Anuncis bloquejats"
+  },
+  "options_title":{
+    "message":"Opcions d'AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Llista de filtres"
+  },
+  "options_add_your_filters":{
+    "message":"Afegeix els teus propis filtres"
+  },
+  "options_whitelisted_domains":{
+    "message":"Dominis a la llista blanca"
+  },
+  "options_general":{
+    "message":"General"
+  },
+  "options_enable_only":{
+    "message":"Activa només les llistes de filtres que necessitis. Massa poden fer que el teu navegador es pengi."
+  },
+  "options_out_of_date_lists":{
+    "message":"Les llistes obsoletes s'actualitzen periòdicament."
+  },
+  "options_enabled":{
+    "message":"Activat"
+  },
+  "options_please_choose":{
+    "message":"Si us plau, tria una subscripció de filtre de la llista:"
+  },
+  "options_add":{
+    "message":"Afegeix"
+  },
+  "options_subscription_title":{
+    "message":"Títol de la subscripció:"
+  },
+  "options_filter_list_location":{
+    "message":"Localització de la llista de filtres:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate està desactivat pels dominis llistats a sota. Pots afegir un domini ja sigui mitjançant la icona d'AdBlocker Ultimate a la barra d'adreces, o bé teclejant el domini (no la URL) a la capsa i fent click al botó \"Afegeix domini\"."
+  },
+  "options_add_domain":{
+    "message":"Afegeix domini"
+  },
+  "options_remove_selected":{
+    "message":"Eliminar seleccionats"
+  },
+  "options_apply_changes":{
+    "message":"Aplica els canvis"
+  },
+  "options_show_block_element":{
+    "message":"Mostra l'opció \"Bloqueja Element\" amb el click dret"
+  },
+  "options_show_useful_notifications":{
+    "message":"Mostra notificacions útils"
+  },
+  "options_update_now":{
+    "message":"Actualitza ara"
+  },
+  "options_add_filter_subscription":{
+    "message":"Afegeix subscripció a un filtre"
+  },
+  "options_delete":{
+    "message":"Elimina"
+  },
+  "options_add_filter":{
+    "message":"Afegeix filtre"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Bloqueja element per url"
+  },
+  "description":{
+    "message":"Bloquejador d'anuncis gratuït i millorat. Elimina completament TOTS els anuncis. Sense anuncis \"acceptables\" o anunciants sense filtrar. Bloqueja el seguiment, bloqueja el malware!"
+  },
+  "shield_dont_show_again":{
+    "message":"No tornis a mostrar aquest missatge"
+  },
+  "shield_congrats":{
+    "message":"Enhorabona!"
+  },
+  "shield_congratulations":{
+    "message":"Enhorabona!"
+  },
+  "shield_got_no_ads":{
+    "message":"sense anuncis gràcies a"
+  },
+  "shield_to_unlock":{
+    "message":"per desbloquejar"
+  },
+  "shield_gold_shield":{
+    "message":"escut daurat"
+  },
+  "shield_silver_shield":{
+    "message":"escut platejat"
+  },
+  "shield_bronze_shield":{
+    "message":"escut de bronze"
+  },
+  "shield_share_abu":{
+    "message":"Comparteix AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"has guanyat"
+  },
+  "shield_blocked_ads":{
+    "message":"anuncis bloquejats"
+  },
+  "shield_rate_us":{
+    "message":"Valora'ns"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Contribueix al nostre projecte"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"hem bloquejat més de $1 anuncis per tu i:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"el teu temps de càrrega de la pàgina s'ha reduit en $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"l'ús màxim de la CPU en $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"ús màxim de memòria disminuit en $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Cap anunci més amb el nostre adblocker gratuït"
+  },
+  "store_ss_surf_faster":{
+    "message":"Navega més ràpid, més segur, més net, sense els anuncis molests!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"No més video-anuncis"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"No més anuncis de Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"No més banners d'anuncis"
+  },
+  "store_ss_ads":{
+    "message":"anuncis"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Navega més ràpid, més segur, SENSE ANUNCIS"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"tots els anuncis molestos ja no hi son!"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "assistant_select_element": {
+    "message": "Valiku režiim"
+  },
+  "assistant_select_element_ext": {
+    "message": "Vajuta ükskõik millisele lehekülje elemendile või "
+  },
+  "assistant_select_element_cancel": {
+    "message": "katkesta valiku režiim"
+  },
+  "assistant_block_element": {
+    "message": "Blokeeri element"
+  },
+  "assistant_block_element_explain": {
+    "message": "Elemendi blokeerimise seadistamine"
+  },
+  "assistant_extended_settings": {
+    "message": "Täpsemad seaded..."
+  },
+  "assistant_rule_parameters": {
+    "message": "Reegli parameetrid"
+  },
+  "assistant_apply_rule_to_all_sites": {
+    "message": "Rakenda seda reeglit igal leheküljel"
+  },
+  "assistant_block_by_reference": {
+    "message": "Blokeeri element leheküljeti"
+  },
+  "assistant_block_similar": {
+    "message": "Blokeeri sarnased elemendid"
+  },
+  "assistant_block": {
+    "message": "Blokeeri"
+  },
+  "assistant_another_element": {
+    "message": "Vali teine element"
+  },
+  "assistant_preview": {
+    "message": "Eelvaade"
+  },
+  "assistant_preview_start": {
+    "message": "Eelvaade"
+  },
+  "assistant_preview_end": {
+    "message": "Lõpeta eelvaade"
+  },
+  "name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "short_name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "description_blocked": {
+    "message": "Sellel lehel blokeeritud reklaamid: $1"
+  },
+  "options_settings": {
+    "message": "AdBlocker Ultimate"
+  },
+  "options_antibanner": {
+    "message": "Reklaami blokeerija"
+  },
+  "options_antibanner_info": {
+    "message": "Filtreeri reeglite kogus: $1"
+  },
+  "options_whitelist": {
+    "message": "Valge nimekiri"
+  },
+  "options_modal_cancel": {
+    "message": "Katkesta"
+  },
+  "options_modal_homepage": {
+    "message": "Koduleht"
+  },
+  "options_userfilter": {
+    "message": "Kasutaja Filter"
+  },
+  "options_userfilter_description": {
+    "message": ""
+  },
+  "options_userfilter_add_rule": {
+    "message": "Lisa uus reegel"
+  },
+  "options_userfilter_export": {
+    "message": "Ekspordi"
+  },
+  "options_userfilter_import": {
+    "message": "Impordi"
+  },
+  "options_userfilter_clear": {
+    "message": "Kustuta"
+  },
+  "options_userfilter_clear_confirm": {
+    "message": "Kustutades kasutaja filtri, kustuvad ka kõik reeglid. Oled sa kindel, et tahad kustutada oma filtri?"
+  },
+  "options_whitelistfilter_clear_confirm": {
+    "message": "Kustutades oma Valge nimekiri, kustutate ka oma reeglid. Olete kindel, et tahate kustutada oma valge nimerkirja?"
+  },
+  "options_filter_version": {
+    "message": "Versioon $1. Uuendatud $2 kell $3."
+  },
+  "options_popup_update_title": {
+    "message": "Filtrid uuendati veatult"
+  },
+  "options_popup_update_not_found": {
+    "message": "Uusi uuendusi ei leitud"
+  },
+  "options_popup_update_error": {
+    "message": "Uuendamisel tekkis viga. Palun proovige uuesti."
+  },
+  "options_popup_update_updated": {
+    "message": "\"$1\" uuendati versiooni $2"
+  },
+  "popup_block_site_ads": {
+    "message": "Blokeeri reklaamid sellel leheküljel"
+  },
+  "popup_security_report": {
+    "message": "Lehekülje turvalisuse raport"
+  },
+  "popup_open_settings": {
+    "message": "AdBlocker Ultimate seaded"
+  },
+  "popup_site_protection_disabled": {
+    "message": "AdBlocker Ultimate kaitse on peatatud"
+  },
+  "popup_site_filtering_state": {
+    "message": "Kaitse sellel leheküljel"
+  },
+  "popup_block_site_ads_android": {
+    "message": "Blokeeri reklaamid sellel leheküljel"
+  },
+  "popup_security_report_android": {
+    "message": "Julgeoleku raport"
+  },
+  "popup_site_protection_disabled_android": {
+    "message": "Kaitse on peatatud"
+  },
+  "popup_open_log_android": {
+    "message": "Filtreerimis logi"
+  },
+  "popup_tab_blocked": {
+    "message": "Blokeeritud: $1"
+  },
+  "popup_tab_blocked_all": {
+    "message": "Kokku: $1"
+  },
+  "popup_ads_has_been_removed": {
+    "message": "Reklaamid kustutati sellelt leheküljelt"
+  },
+  "popup_ads_has_been_removed_by_abu": {
+    "message": "Kaitstud $1 poolt"
+  },
+  "context_block_site_ads": {
+    "message": "Blokeeri reklaam sellel leheküljel..."
+  },
+  "context_block_site_element": {
+    "message": "Blokeeri element..."
+  },
+  "context_abuse_site": {
+    "message": "Esitada kaebus sellest veebilest..."
+  },
+  "context_ads_has_been_removed": {
+    "message": "Reklaamid kustutati sellelt leheküljelt"
+  },
+  "context_ads_has_been_removed_by_abu": {
+    "message": "Kaitstud $1 poolt"
+  },
+  "context_site_filtering_disabled": {
+    "message": "AdBlocker Ultimate ei saa toimida sellel leheküljel"
+  },
+  "context_site_protection_disabled": {
+    "message": "AdBlocker Ultimate kaitse on peatatud"
+  },
+  "context_open_settings": {
+    "message": "AdBlocker Ultimate seaded..."
+  },
+  "context_site_exception": {
+    "message": "See lehekülg on erandite hulgas"
+  },
+  "context_site_filtering_on": {
+    "message": "Luba leheküljel filtreerimine"
+  },
+  "context_site_filtering_off": {
+    "message": "Ära luba lehekülje filtreerimist"
+  },
+  "context_update_antibanner_filters": {
+    "message": "Otsi filtri uuendusi"
+  },
+  "alert_popup_filter_enabled_title": {
+    "message": "Automaatne filtrite aktiveerimine"
+  },
+  "alert_popup_filter_enabled_text": {
+    "message": "«$1» on automaatselt aktiveeritud"
+  },
+  "filter_download_title": {
+    "message": "Filtrite andmebaas laeb..."
+  },
+  "filter_download_loading": {
+    "message": "Palun oodake, kuni filtrid on laetud..."
+  },
+  "abu_product_windows": {
+    "message": "AdBlocker Ultimate Windowsile"
+  },
+  "abu_product_mac": {
+    "message": "AdBlocker Ultimate Macile"
+  },
+  "abu_subscribe_confirm_enable": {
+    "message": "AdBlocker Ultimate: Kas soovite lubada $1 tellimuse?"
+  },
+  "abu_subscribe_confirm_import": {
+    "message": "AdBlocker Ultimate: kas soovite importida reeglid $1 oma filtrisse?"
+  },
+  "abu_subscribe_confirm_import_finished_title": {
+    "message": "Importimine on edukalt lõppenud"
+  },
+  "abu_subscribe_confirm_import_finished_text": {
+    "message": "AdBlocker Ultimate lõpetas reeglite importimise filtrisse. imporditi reeglid number: $1"
+  },
+  "browser_action_popup_enabled_on_site": {
+    "message": "<strong>Luba<\/strong> sellel leheküljel"
+  },
+  "browser_action_popup_disabled_on_site": {
+    "message": "<strong>Ära luba<\/strong> sellel leheküljel"
+  },
+  "browser_action_popup_on_this_page": {
+    "message": "<strong>$1<\/strong>sellel leheküljel"
+  },
+  "browser_action_popup_in_total": {
+    "message": "<strong>$1<\/strong> kokku"
+  },
+  "browser_action_popup_show_number_in_icon": {
+    "message": "Näita numbrit ikoonis"
+  },
+  "browser_action_popup_options": {
+    "message": "Valikud"
+  },
+  "browser_action_popup_block_element": {
+    "message": "Blokeeri element"
+  },
+  "browser_action_popup_donate": {
+    "message": "Anneta"
+  },
+  "browser_action_ads_blocked": {
+    "message": "Reklaamid blokeeritud"
+  },
+  "options_title": {
+    "message": "AdBlocker Ultimate seaded"
+  },
+  "options_filter_list": {
+    "message": "Flitrite nimekirjad"
+  },
+  "options_add_your_filters": {
+    "message": "Lisa oma filtreid"
+  },
+  "options_whitelisted_domains": {
+    "message": "Lubatud domeenide nimekiri"
+  },
+  "options_general": {
+    "message": "Üldine"
+  },
+  "options_enable_only": {
+    "message": "Luba ainult filtid mida vajad. Liiga palju võib teha su browseri aeglaseks."
+  },
+  "options_out_of_date_lists": {
+    "message": "Aegunud nimekirju uuendatakse perioodiliselt."
+  },
+  "options_enabled": {
+    "message": "Lubatud"
+  },
+  "options_please_choose": {
+    "message": "Vali nimekirjast sobiv filtrite tellimus:"
+  },
+  "options_add": {
+    "message": "Lisa"
+  },
+  "options_subscription_title": {
+    "message": "Tellimuse pealkiri:"
+  },
+  "options_filter_list_location": {
+    "message": "Filtrite nimekirja asukoht:"
+  },
+  "options_abu_is_disabled": {
+    "message": "AdBlocker Ultimate on tühistatud lehekülgedel all pool. Te võite lisada lehekülje AdBlocker Ultimate ikooni otsingu ribal või kirjutades domeen (mitte Url) kasti ja klikkides \"lisa domeen\" nuppu."
+  },
+  "options_add_domain": {
+    "message": "Lisa domeen"
+  },
+  "options_remove_selected": {
+    "message": "Eemalda valitud"
+  },
+  "options_apply_changes": {
+    "message": "Kinnita muudatused"
+  },
+  "options_show_block_element": {
+    "message": "Näita 'Blokeeri element' parema klõpsu menüüd"
+  },
+  "options_show_useful_notifications": {
+    "message": "Näita kasulikke teatiseid"
+  },
+  "options_update_now": {
+    "message": "Uuenda nüüd"
+  },
+  "options_add_filter_subscription": {
+    "message": "Lisa filtri tellimus"
+  },
+  "options_delete": {
+    "message": "Kustuta"
+  },
+  "options_add_filter": {
+    "message": "Lisa filter"
+  },
+  "assistant_block_element_by_url": {
+    "message": "Blokeeri element leheküljeti"
+  },
+  "description": {
+    "message": "Tasuta ja täiustatud reklaami blokeerija. Kustuta täielikult kõik reklaamid. Mitte ühtegi valges nimekirjas reklaamijat, blokeeri jälgimine ja pahavara!"
+  },
+  "shield_dont_show_again": {
+    "message": "Ära näita seda sõnumit enam"
+  },
+  "shield_congrats": {
+    "message": "Palju õnne!"
+  },
+  "shield_congratulations": {
+    "message": "Palju õnne!"
+  },
+  "shield_got_no_ads": {
+    "message": "mitte ühtegi reklaami tänu"
+  },
+  "shield_to_unlock": {
+    "message": "avada"
+  },
+  "shield_gold_shield": {
+    "message": "kuldne kilp"
+  },
+  "shield_silver_shield": {
+    "message": "hõbe kilp"
+  },
+  "shield_bronze_shield": {
+    "message": "pronks kilp"
+  },
+  "shield_share_abu": {
+    "message": "Jaga AdBlocker Ultimate:"
+  },
+  "shield_you_won": {
+    "message": "te võitsite"
+  },
+  "shield_blocked_ads": {
+    "message": "blokeeritud reklaamid"
+  },
+  "shield_rate_us": {
+    "message": "Hinda meid"
+  },
+  "shield_contribute_to_our_project": {
+    "message": "Aidata kaasa meie projekti"
+  },
+  "shield_we_blocked_more_than": {
+    "message": "me blokeerisime rohkem kui $1 reklaami teile ja:"
+  },
+  "shield_decreased_your_page_load_time": {
+    "message": "lehekülje avamis kiirus paranes $1"
+  },
+  "shield_decreased_peak_cpu_usage": {
+    "message": "CPU kasutus vähenes $1"
+  },
+  "shield_decreased_peak_memory_usage": {
+    "message": "Mälu kasutus vähenes $1"
+  },
+  "store_ss_no_more_ads": {
+    "message": "Mitte ühtegi reklaami tänu meie tasuta adblockerile"
+  },
+  "store_ss_surf_faster": {
+    "message": "Surfa kiiremini, kaitstuna ja ilma reklaamidetta!"
+  },
+  "store_ss_no_more_video_ads": {
+    "message": "Mitte ühtegi video reklaami"
+  },
+  "store_ss_no_more_facebook_ads": {
+    "message": "Mitte ühtegi facebooki reklaami"
+  },
+  "store_ss_no_more_banner_ads": {
+    "message": "Mitte ühtegi bänner reklaami"
+  },
+  "store_ss_ads": {
+    "message": "reklaamid"
+  },
+  "store_ss_surf_faster_with_no_ads": {
+    "message": "Surfa kiiremini, kaitstuna ja reklaami vabalt"
+  },
+  "store_ss_surf_and_all_annoying_ads": {
+    "message": "ja ilma närviajavate reklaamidetta!"
+  }
+}

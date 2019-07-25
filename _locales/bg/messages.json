@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Избери елемент"
+  },
+  "assistant_select_element_ext":{
+    "message":"Изберете елемент от страницата или "
+  },
+  "assistant_select_element_cancel":{
+    "message":"Откажи"
+  },
+  "assistant_block_element":{
+    "message":"Блокиране на елемент"
+  },
+  "assistant_block_element_explain":{
+    "message":"Създаване на правило за блокиране на елемент"
+  },
+  "assistant_extended_settings":{
+    "message":"Разширени настройки..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Параметри на правилото"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Приложи това правило за всички уеб сайтове"
+  },
+  "assistant_block_by_reference":{
+    "message":"Блокиране на елемент по адрес"
+  },
+  "assistant_block_similar":{
+    "message":"Блокиране на подобни елементи"
+  },
+  "assistant_block":{
+    "message":"Блокирай"
+  },
+  "assistant_another_element":{
+    "message":"Избиране на друг елемент"
+  },
+  "assistant_preview":{
+    "message":"Преглед"
+  },
+  "assistant_preview_start":{
+    "message":"Преглед"
+  },
+  "assistant_preview_end":{
+    "message":"Откажи"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Блокирани реклами на тази страница: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Приложение за блокиране на реклами"
+  },
+  "options_antibanner_info":{
+    "message":"Правила за филтриране: $1"
+  },
+  "options_whitelist":{
+    "message":"Позволен списък"
+  },
+  "options_modal_cancel":{
+    "message":"Откажи"
+  },
+  "options_modal_homepage":{
+    "message":"Начална страница"
+  },
+  "options_userfilter":{
+    "message":"Потребителски филтър"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Добави ново правило"
+  },
+  "options_userfilter_export":{
+    "message":"Експортиране"
+  },
+  "options_userfilter_import":{
+    "message":"Импортиране"
+  },
+  "options_userfilter_clear":{
+    "message":"Изчисти"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Изчистване на потребителския филтър премахва всички правила. Наистина ли искате да изчистите потребителския филтър?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":" Изчистването на позволения списък ще изтрие всички правила. Сигурни ли сте че искате да изчистите позволения списък?"
+  },
+  "options_filter_version":{
+    "message":"Версия $1. Обновена на $2 в $3."
+  },
+  "options_popup_update_title":{
+    "message":"Филтрите са обновени успешно"
+  },
+  "options_popup_update_not_found":{
+    "message":"Няма намерени обновления"
+  },
+  "options_popup_update_error":{
+    "message":"Неуспешно обновяване. Моля, опитайте отново по късно."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" обновено до версия $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Блокирай рекламите на този сайт"
+  },
+  "popup_security_report":{
+    "message":"Доклад за сигурността на сайта "
+  },
+  "popup_open_settings":{
+    "message":"AdBlocker Ultimate настойки"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Защитата на AdBlocker Ultimate е паузирана"
+  },
+  "popup_site_filtering_state":{
+    "message":"Защита на този сайт"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Блокирай реклами на сайт "
+  },
+  "popup_security_report_android":{
+    "message":"Доклад за сигурността"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Защитата е паузирана. "
+  },
+  "popup_open_log_android":{
+    "message":"Лог на филтрите"
+  },
+  "popup_tab_blocked":{
+    "message":"Блокирани: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Общо: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Рекламите на тази страница са премахнати"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Защитен от $1"
+  },
+  "context_block_site_ads":{
+    "message":"Блокирай реклама на този сайт..."
+  },
+  "context_block_site_element":{
+    "message":"Блокирай елемент..."
+  },
+  "context_abuse_site":{
+    "message":"Подай оплакване за този сайт..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Рекламите на тази страница са премахнати "
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Защитен от $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate не работи на този домейн"
+  },
+  "context_site_protection_disabled":{
+    "message":"Защитата на AdBlocker Ultimate е паузирана"
+  },
+  "context_open_settings":{
+    "message":"AdBlocker Ultimate настройки..."
+  },
+  "context_site_exception":{
+    "message":"Този сайт е в списъка с изключения"
+  },
+  "context_site_filtering_on":{
+    "message":"Включете филтрирането за този сайт"
+  },
+  "context_site_filtering_off":{
+    "message":" Изключете филтрирането за този сайт "
+  },
+  "context_update_antibanner_filters":{
+    "message":"Проверка за обновления на филтри"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Автоматично активиране на филтри"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» беше активиран автоматично"
+  },
+  "filter_download_title":{
+    "message":"Базата от филтри се зарежда..."
+  },
+  "filter_download_loading":{
+    "message":"Моля изчакайте, докато филтрите бъдат заредени..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate за Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate за Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: Желаете ли да направите абонамет за $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: Искате ли да добавите правила от $1 към вашия потребителски филтър?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Добавянето беше успешно завършено"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate завърши добавянето на правила към вашия потребителски филтър. Брой добавени правила: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Активиран<\/strong> за тази страница"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Деактивиран<\/strong> за този сайт"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> на тази страница"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> общо"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Брой блокирани реклами"
+  },
+  "browser_action_popup_options":{
+    "message":"Настройки"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Блокирай елемент"
+  },
+  "browser_action_popup_donate":{
+    "message":"Дари"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Блокирани реклами"
+  },
+  "options_title":{
+    "message":"AdBlocker Ultimate Настройки"
+  },
+  "options_filter_list":{
+    "message":"Списък с филтри"
+  },
+  "options_add_your_filters":{
+    "message":"Добави свои филтри"
+  },
+  "options_whitelisted_domains":{
+    "message":"Домейни добавени в позволения списък"
+  },
+  "options_general":{
+    "message":"Общи"
+  },
+  "options_enable_only":{
+    "message":"Добавете само необходими списъци с филтри. Прекалено много филтри могат да направят браузера ви нестабилен."
+  },
+  "options_out_of_date_lists":{
+    "message":"Остарелите списъци се подновяват периодично."
+  },
+  "options_enabled":{
+    "message":"Включен"
+  },
+  "options_please_choose":{
+    "message":"Моля изберете подходящите филтри от списъка:"
+  },
+  "options_add":{
+    "message":"Добави"
+  },
+  "options_subscription_title":{
+    "message":"Заглавие на абонамент:"
+  },
+  "options_filter_list_location":{
+    "message":"Адрес на списъка с филтри:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate е изключен за следните домейни. Може да добавите домейн или чрез иконата на AdBlocker Ultimate от адресната лента, или като въведете домейна (не линк) в кутията и натиснете бутона \"Добави домейн\"."
+  },
+  "options_add_domain":{
+    "message":"Добави домейн"
+  },
+  "options_remove_selected":{
+    "message":"Премахни избраните"
+  },
+  "options_apply_changes":{
+    "message":"Приложи прмонените"
+  },
+  "options_show_block_element":{
+    "message":"Показвай 'Блокирай Елемент' в контекстуалното меню"
+  },
+  "options_show_useful_notifications":{
+    "message":"Показвай полезни известия"
+  },
+  "options_update_now":{
+    "message":"Обнови"
+  },
+  "options_add_filter_subscription":{
+    "message":"Абонирай се за филтри"
+  },
+  "options_delete":{
+    "message":"Изтрий"
+  },
+  "options_add_filter":{
+    "message":"Добави филтър"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Блоркирай елемент по адрес"
+  },
+  "description":{
+    "message":"Безплатно и подобрено приложение за блокиране на реклами. Напълно премахнете ВСИЧКИ реклами. Без никакви \"приемливи\" реклами и разрешени рекламодатели, блокира следенето, блокира злонамерен софтуер!"
+  },
+  "shield_dont_show_again":{
+    "message":"Повече не показвай това съобщение"
+  },
+  "shield_congrats":{
+    "message":"Поздравления!"
+  },
+  "shield_congratulations":{
+    "message":"Поздравления!"
+  },
+  "shield_got_no_ads":{
+    "message":"без реклами благодарение на"
+  },
+  "shield_to_unlock":{
+    "message":"за да отключите"
+  },
+  "shield_gold_shield":{
+    "message":"златен щит"
+  },
+  "shield_silver_shield":{
+    "message":"сребърен щит"
+  },
+  "shield_bronze_shield":{
+    "message":"бронзов щит"
+  },
+  "shield_share_abu":{
+    "message":"Споделете AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"вие спечелихте"
+  },
+  "shield_blocked_ads":{
+    "message":"блокирани реклами"
+  },
+  "shield_rate_us":{
+    "message":"Оценете ни"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Допринесете за нашия проект"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"ние блокирахме повече от $1 реклами за вас и:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"намалихме времето за зареждане на вашите страници с $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"намалихме пиковата употреба на процесора с $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"намалихме пиковата употреба на оперативната памет с $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Без повече реклами благодарение на нашето безплатно приложение за блокиране на реклами"
+  },
+  "store_ss_surf_faster":{
+    "message":"Сърфирай по-бързо, по-безопасно, по-чисто, без достадните реклами!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Без повече видео реклами"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Без повече реклами във Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Без повече банери"
+  },
+  "store_ss_ads":{
+    "message":"реклами"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Сърфирай по-бързо, по-безопасно БЕЗ НИКАКВИ РЕКЛАМИ"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"И всички досадни реклами ги няма!"
+  }
+}

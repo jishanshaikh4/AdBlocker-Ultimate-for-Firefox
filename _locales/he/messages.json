@@ -1,0 +1,392 @@
+{
+  "assistant_select_element": {
+    "message": "מצב בחירה"
+  },
+  "assistant_select_element_ext": {
+    "message": "לחץ על כל רכיב בעמוד או "
+  },
+  "assistant_select_element_cancel": {
+    "message": "בטל את מצב הבחירה"
+  },
+  "assistant_block_element": {
+    "message": "חסום רכיב"
+  },
+  "assistant_block_element_explain": {
+    "message": "הגדרת חוקי חסימת אלמנטים"
+  },
+  "assistant_extended_settings": {
+    "message": "הגדרות מתקדמות..."
+  },
+  "assistant_rule_parameters": {
+    "message": "פרמטרים להגדרה"
+  },
+  "assistant_apply_rule_to_all_sites": {
+    "message": "החל הגדרה זו על כל אתר"
+  },
+  "assistant_block_by_reference": {
+    "message": "חסימת רכיב לפי כתובת url"
+  },
+  "assistant_block_similar": {
+    "message": "חסום רכיבים דומים"
+  },
+  "assistant_block": {
+    "message": "חסום"
+  },
+  "assistant_another_element": {
+    "message": "בחר רכיב אחר"
+  },
+  "assistant_preview": {
+    "message": "תצוגה מקדימה"
+  },
+  "assistant_preview_start": {
+    "message": "תצוגה מקדימה"
+  },
+  "assistant_preview_end": {
+    "message": "סיום תצוגה מקדימה"
+  },
+  "name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "short_name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "description_blocked": {
+    "message": "מודעות חסומות בעמוד זה: $1"
+  },
+  "options_settings": {
+    "message": "חוסם הפרסומות האולטימטיבי"
+  },
+  "options_antibanner": {
+    "message": "חוסם פרסומות"
+  },
+  "options_antibanner_info": {
+    "message": "מונה הגדרות פילטרים: $1"
+  },
+  "options_whitelist": {
+    "message": "רשימה לבנה"
+  },
+  "options_modal_cancel": {
+    "message": "בטל"
+  },
+  "options_modal_homepage": {
+    "message": "עמוד הבית"
+  },
+  "options_userfilter": {
+    "message": "פילטר משתמש"
+  },
+  "options_userfilter_description": {
+    "message": ""
+  },
+  "options_userfilter_add_rule": {
+    "message": "הוסף הגדרה חדשה"
+  },
+  "options_userfilter_export": {
+    "message": "ייצוא"
+  },
+  "options_userfilter_import": {
+    "message": "ייבוא"
+  },
+  "options_userfilter_clear": {
+    "message": "ניקוי"
+  },
+  "options_userfilter_clear_confirm": {
+    "message": "ניקוי פילטר המשתמש יסיר את כל הפילטרים שהוגדרו. האם לנקות את הפילטר?"
+  },
+  "options_whitelistfilter_clear_confirm": {
+    "message": "ניקוי הרשימה הלבנה ימחק את כל ההגדרות. האם לנקות את הרשימה?"
+  },
+  "options_filter_version": {
+    "message": "גרסה $1. עדכון $2 ב $3."
+  },
+  "options_popup_update_title": {
+    "message": "רשימות הסינון עודכנו בהצלחה"
+  },
+  "options_popup_update_not_found": {
+    "message": "לא נמצאו עדכונים"
+  },
+  "options_popup_update_error": {
+    "message": "קבלת עדכונים נכשלה. נא לנסות שוב מאוחר יותר."
+  },
+  "options_popup_update_updated": {
+    "message": "\"$1\" עודכן לגרסה $2"
+  },
+  "popup_block_site_ads": {
+    "message": "חסום פרסומות באתר זה"
+  },
+  "popup_security_report": {
+    "message": "דו\"ח אבטחה לאתר"
+  },
+  "popup_open_settings": {
+    "message": "הגדרות AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled": {
+    "message": "ההגנה של חוסם הפרסומות האולטימטיבי הושהתה"
+  },
+  "popup_site_filtering_state": {
+    "message": "הגנה על אתר זה"
+  },
+  "popup_block_site_ads_android": {
+    "message": "חסום פרסומות באתר"
+  },
+  "popup_security_report_android": {
+    "message": "דו\"ח אבטחה"
+  },
+  "popup_site_protection_disabled_android": {
+    "message": "הגנה מושהיית"
+  },
+  "popup_open_log_android": {
+    "message": "יומן סינון"
+  },
+  "popup_tab_blocked": {
+    "message": "חסומים: $1"
+  },
+  "popup_tab_blocked_all": {
+    "message": "סה\"כ: $1"
+  },
+  "popup_ads_has_been_removed": {
+    "message": "הפרסומות הוסרו מדף זה"
+  },
+  "popup_ads_has_been_removed_by_abu": {
+    "message": "מוגן על ידי $1"
+  },
+  "context_block_site_ads": {
+    "message": "חסום פרסומות באתר זה..."
+  },
+  "context_block_site_element": {
+    "message": "חסום רכיב..."
+  },
+  "context_abuse_site": {
+    "message": "להגיש תלונה על אתר זה..."
+  },
+  "context_ads_has_been_removed": {
+    "message": "הפרסומות הוסרו מדף זה"
+  },
+  "context_ads_has_been_removed_by_abu": {
+    "message": "מוגן על ידי $1"
+  },
+  "context_site_filtering_disabled": {
+    "message": "חוסם הפרסומות האולטימטיבי לא יכול לרוץ על דומיין זה"
+  },
+  "context_site_protection_disabled": {
+    "message": "ההגנה של חוסם הפרסומות האולטימטיבי הושהתה"
+  },
+  "context_open_settings": {
+    "message": "הגדרות חוסם הפרסומות האולטימטיבי..."
+  },
+  "context_site_exception": {
+    "message": "אתר זה ברשימת החריגות"
+  },
+  "context_site_filtering_on": {
+    "message": "אפשר פילטר על אתר זה"
+  },
+  "context_site_filtering_off": {
+    "message": "חסום פילטר על אתר זה"
+  },
+  "context_update_antibanner_filters": {
+    "message": "חיפוש עדכוני פילטר"
+  },
+  "alert_popup_filter_enabled_title": {
+    "message": "הפעלה אוטומאטית של הפילטרים"
+  },
+  "alert_popup_filter_enabled_text": {
+    "message": "«$1» הופעל אוטומאטית"
+  },
+  "filter_download_title": {
+    "message": "מסד נתוני פילטרים בטעינה..."
+  },
+  "filter_download_loading": {
+    "message": "נא המתן בעת טעינת מסד נתוני פילטרים..."
+  },
+  "abu_product_windows": {
+    "message": "חוסם הפרסומות האולטימטיבי למערכת חלונות"
+  },
+  "abu_product_mac": {
+    "message": "חוסם הפרסומות האולטימטיבי למערכת מקינטוש"
+  },
+  "abu_subscribe_confirm_enable": {
+    "message": "חוסם הפרסומות האולטימטיבי: האם לאפשר את ההרשמה ל-$1?"
+  },
+  "abu_subscribe_confirm_import": {
+    "message": "חוסם הפרסומות האולטימטיבי: האם לייבא הגדרות מ $1 להגדרות הפילטר של המשתמש שלך?"
+  },
+  "abu_subscribe_confirm_import_finished_title": {
+    "message": "ייבוא הסתיים בהצלחה"
+  },
+  "abu_subscribe_confirm_import_finished_text": {
+    "message": "חוסם הפרסומות האולטימטיבי סיים לייבא הגדרות לפילטר המשתמש. מספר ההגדרות שיובאו: $1"
+  },
+  "browser_action_popup_enabled_on_site": {
+    "message": "<strong>אפשר<\/strong> באתר זה"
+  },
+  "browser_action_popup_disabled_on_site": {
+    "message": "<strong>חסום<\/strong> באתר זה"
+  },
+  "browser_action_popup_on_this_page": {
+    "message": "<strong>$1<\/strong> בדף זה"
+  },
+  "browser_action_popup_in_total": {
+    "message": "<strong>$1<\/strong> בסה\"כ"
+  },
+  "browser_action_popup_show_number_in_icon": {
+    "message": "הצגת מספר בצלמית"
+  },
+  "browser_action_popup_options": {
+    "message": "אפשרויות"
+  },
+  "browser_action_popup_block_element": {
+    "message": "חסום רכיב"
+  },
+  "browser_action_popup_donate": {
+    "message": "תרומה"
+  },
+  "browser_action_ads_blocked": {
+    "message": "מודעות חסומות"
+  },
+  "options_title": {
+    "message": "הגדרות חוסם הפרסומות האולטימטיבי"
+  },
+  "options_filter_list": {
+    "message": "רשימות המסננים"
+  },
+  "options_add_your_filters": {
+    "message": "הוסף רשימת סינון אישית"
+  },
+  "options_whitelisted_domains": {
+    "message": "אתרים מורשים"
+  },
+  "options_general": {
+    "message": "כללי"
+  },
+  "options_enable_only": {
+    "message": "יש לאפשר רק את רשימות הפילטרים הנדרשים. פילטרים רבים מדי יגרמו לדפדפן להתקע."
+  },
+  "options_out_of_date_lists": {
+    "message": "רשימות סינון שאינן מעודכנות מתעדכנות מעת לעת."
+  },
+  "options_enabled": {
+    "message": "מופעל"
+  },
+  "options_please_choose": {
+    "message": "יש לבחור רשימת סינון מתוך הרשימה:"
+  },
+  "options_add": {
+    "message": "הוסף"
+  },
+  "options_subscription_title": {
+    "message": "שם המנוי:"
+  },
+  "options_filter_list_location": {
+    "message": "מיקום רשימות הסינון:"
+  },
+  "options_abu_is_disabled": {
+    "message": "'AdBlocker Ultimate' מושבת לדומיינים הרשומים מטה. אפשר להוסיף דומיין דרך צלמית 'AdBlocker Ultimate' בשורת הכתובת, או על ידי הקלדת שם הדומיין (לא כתובת האתר, רק הדומיין) בתיבה וללחוץ על לחצן \"הוסף דומיין\"."
+  },
+  "options_add_domain": {
+    "message": "הוספת שם דומיין"
+  },
+  "options_remove_selected": {
+    "message": "מחיקת הפריטים שנבחרו"
+  },
+  "options_apply_changes": {
+    "message": "החל שינויים"
+  },
+  "options_show_block_element": {
+    "message": "הצגת פריט 'חסימת רכיב' בתפריט לחצן ימני"
+  },
+  "options_show_useful_notifications": {
+    "message": "הצגת התראות"
+  },
+  "options_update_now": {
+    "message": "עדכן עכשיו"
+  },
+  "options_add_filter_subscription": {
+    "message": "הוספת רישום מסנן"
+  },
+  "options_delete": {
+    "message": "מחיקה"
+  },
+  "options_add_filter": {
+    "message": "הוספת פילטר"
+  },
+  "assistant_block_element_by_url": {
+    "message": "חסימת רכיב לפי כתובת url"
+  },
+  "description": {
+    "message": "חוסם פרסומות חינמי ומשופר. מסיר את כל הפרסומות לחלוטין. ללא פרסומות \"מאושרות\" או מפרסמים מותרים, חוסם מעקב, חוסם תוכנות זדוניות!"
+  },
+  "shield_dont_show_again": {
+    "message": "לא להציג שוב הודעה זו"
+  },
+  "shield_congrats": {
+    "message": "מזל טוב!"
+  },
+  "shield_congratulations": {
+    "message": "ברכות!"
+  },
+  "shield_got_no_ads": {
+    "message": "אין פרסומות הודות ל-"
+  },
+  "shield_to_unlock": {
+    "message": "ביטול נעילה"
+  },
+  "shield_gold_shield": {
+    "message": "מגן זהב"
+  },
+  "shield_silver_shield": {
+    "message": "מגן כסף"
+  },
+  "shield_bronze_shield": {
+    "message": "מגן ארד"
+  },
+  "shield_share_abu": {
+    "message": "שתף את AdBlocker Ultimate:"
+  },
+  "shield_you_won": {
+    "message": "ניצחת"
+  },
+  "shield_blocked_ads": {
+    "message": "פרסומות חסומות"
+  },
+  "shield_rate_us": {
+    "message": "דרג אותנו"
+  },
+  "shield_contribute_to_our_project": {
+    "message": "לתרום לפרויקט שלנו"
+  },
+  "shield_we_blocked_more_than": {
+    "message": "חסמנו יותר מ- $1 מודעות עבורך ו:"
+  },
+  "shield_decreased_your_page_load_time": {
+    "message": "הפחתת זמן טעינת הדף ב- $1"
+  },
+  "shield_decreased_peak_cpu_usage": {
+    "message": "הפחתת צריכת CPU ב- $1"
+  },
+  "shield_decreased_peak_memory_usage": {
+    "message": "הפחתת צריכת זכרון ב- $1"
+  },
+  "store_ss_no_more_ads": {
+    "message": "אין יותר פרסומות עם חוסם הפרסומות החופשי שלנו"
+  },
+  "store_ss_surf_faster": {
+    "message": "גלישה מהירה יותר, בטוחה יותר, נקיה יותר, ללא פרסומות מעצבנות!"
+  },
+  "store_ss_no_more_video_ads": {
+    "message": "אין יותר פרסומות וידאו"
+  },
+  "store_ss_no_more_facebook_ads": {
+    "message": "אין יותר פרסומות פייסבוק"
+  },
+  "store_ss_no_more_banner_ads": {
+    "message": "לא עוד באנרים"
+  },
+  "store_ss_ads": {
+    "message": "פרסומות"
+  },
+  "store_ss_surf_faster_with_no_ads": {
+    "message": "גלישה מהירה יותר, בטוחה יותר, ללא פרסומות"
+  },
+  "store_ss_surf_and_all_annoying_ads": {
+    "message": "וכל הפרסומות המרגיזות בחוץ!"
+  }
+}

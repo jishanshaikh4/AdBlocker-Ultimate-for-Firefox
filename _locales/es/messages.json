@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Modo de selección"
+  },
+  "assistant_select_element_ext":{
+    "message":"Haz click en cualquier elemento de la página o "
+  },
+  "assistant_select_element_cancel":{
+    "message":"cancela el modo de selección"
+  },
+  "assistant_block_element":{
+    "message":"Bloquea elemento"
+  },
+  "assistant_block_element_explain":{
+    "message":"Configuración de las reglas de bloqueo de elementos"
+  },
+  "assistant_extended_settings":{
+    "message":"Configuración avanzada..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Parámetros de las reglas"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Aplica esta regla a todas las páginas web"
+  },
+  "assistant_block_by_reference":{
+    "message":"Bloquea elemento por url"
+  },
+  "assistant_block_similar":{
+    "message":"Bloquea elementos similares"
+  },
+  "assistant_block":{
+    "message":"Bloquea"
+  },
+  "assistant_another_element":{
+    "message":"Selecciona otro elemento"
+  },
+  "assistant_preview":{
+    "message":"Previsualiza"
+  },
+  "assistant_preview_start":{
+    "message":"Previsualiza"
+  },
+  "assistant_preview_end":{
+    "message":"Finaliza la previsualización"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Anuncios bloqueados en esta página: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Bloqueador de anuncios"
+  },
+  "options_antibanner_info":{
+    "message":"Recuento de reglas del filtro: $1"
+  },
+  "options_whitelist":{
+    "message":"Lista blanca"
+  },
+  "options_modal_cancel":{
+    "message":"Cancelar"
+  },
+  "options_modal_homepage":{
+    "message":"Página de inicio"
+  },
+  "options_userfilter":{
+    "message":"Filtros de usuario"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Añadir nueva norma"
+  },
+  "options_userfilter_export":{
+    "message":"Exportar"
+  },
+  "options_userfilter_import":{
+    "message":"Importar"
+  },
+  "options_userfilter_clear":{
+    "message":"Resetear"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Resetear el filtro de usuario elimina todas las reglas. Quieres resetear el filtro de usuario?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Resetear la lista blanca eliminará todas las normas. Quieres resetear la lista blanca?"
+  },
+  "options_filter_version":{
+    "message":"Version $1. Actualizado $2 a $3."
+  },
+  "options_popup_update_title":{
+    "message":"Filtros actualizados con éxito"
+  },
+  "options_popup_update_not_found":{
+    "message":"No se han encontrado actualizaciones"
+  },
+  "options_popup_update_error":{
+    "message":"Fallo al bajar las actualizaciones. Por favor, inténtalo de nuevo más tarde."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" actualizado a versión $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Bloquea anuncios en esta página"
+  },
+  "popup_security_report":{
+    "message":"Informe de seguridad de la página web"
+  },
+  "popup_open_settings":{
+    "message":"Ajustes de AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"La protección de AdBlocker Ultimate está pausada"
+  },
+  "popup_site_filtering_state":{
+    "message":"Protección en esta página web"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Bloquea anuncios en una página web"
+  },
+  "popup_security_report_android":{
+    "message":"Informe de seguridad"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"La protección está pausada"
+  },
+  "popup_open_log_android":{
+    "message":"Registro de filtrado"
+  },
+  "popup_tab_blocked":{
+    "message":"Bloqueado: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Total: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Los anuncios han sido eliminados de esta página"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Protegido por $1"
+  },
+  "context_block_site_ads":{
+    "message":"Bloquea anuncios en esta página..."
+  },
+  "context_block_site_element":{
+    "message":"Bloquea elemento..."
+  },
+  "context_abuse_site":{
+    "message":"Envia una queja sobre esta página..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Los anuncios han sido eliminados de esta página"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Protegido por $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate no puede ejecutarse en este dominio"
+  },
+  "context_site_protection_disabled":{
+    "message":"La protección de AdBlocker Ultimate está pausada"
+  },
+  "context_open_settings":{
+    "message":"Ajustes de AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Esta página web está en las excepciones"
+  },
+  "context_site_filtering_on":{
+    "message":"Activar el filtrado en esta página"
+  },
+  "context_site_filtering_off":{
+    "message":"Desactiva el filtrado en esta página"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Busca actualizaciones de filtros"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Auto-activación de los filtros"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» ha sido activado automáticamente"
+  },
+  "filter_download_title":{
+    "message":"La base de datos de filtros está cargando..."
+  },
+  "filter_download_loading":{
+    "message":"Por favor espera mientras la base de datos de filtros carga..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate para Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate para Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: quieres activar la suscripción de $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: quieres importar las reglas de de $1 a tu filtro de usuario?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"La importación ha finalizado correctamente"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate ha acabado de importar las reglas al filtro de usuario. Número de reglas importadas: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Activado<\/strong> en esta página"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Desactivado<\/strong> en esta página"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> en esta página"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> en total"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Muestra el número en el icono"
+  },
+  "browser_action_popup_options":{
+    "message":"Opciones"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Bloquea elemento"
+  },
+  "browser_action_popup_donate":{
+    "message":"Haz una donación"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Anuncios bloqueados"
+  },
+  "options_title":{
+    "message":"Ajustes de AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Lista de filtros"
+  },
+  "options_add_your_filters":{
+    "message":"Añade tus propios filtros"
+  },
+  "options_whitelisted_domains":{
+    "message":"Dominios en lista blanca (autorizados)"
+  },
+  "options_general":{
+    "message":"General"
+  },
+  "options_enable_only":{
+    "message":"Activa sólo las listas de filtros que necesites. Añadir demasiadas puede hacer que tu navegador no responda."
+  },
+  "options_out_of_date_lists":{
+    "message":"Las listas obsolteas se actualizan periódicamente."
+  },
+  "options_enabled":{
+    "message":"Activado"
+  },
+  "options_please_choose":{
+    "message":"Por favor elige una suscripción a un filtro de la lista:"
+  },
+  "options_add":{
+    "message":"Añade"
+  },
+  "options_subscription_title":{
+    "message":"Título de la suscripción:"
+  },
+  "options_filter_list_location":{
+    "message":"Ubicación de la lista de filtros:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate está desactivado para las páginas listadas a continuación. Puedes añadir un dominio a través del icono de AdBlocker Ultimate en la barra de direcciones o tecleando el dominio (no la URL) en la caja y haciendo click en el botón \"Añadir dominio\"."
+  },
+  "options_add_domain":{
+    "message":"Añadir dominio"
+  },
+  "options_remove_selected":{
+    "message":"Eliminar los seleccionados"
+  },
+  "options_apply_changes":{
+    "message":"Aplicar los cambios"
+  },
+  "options_show_block_element":{
+    "message":"Mostrar la opción \"Bloquear elemento\" en el menú de click con el botó derecho"
+  },
+  "options_show_useful_notifications":{
+    "message":"Muestra notificaciones útiles"
+  },
+  "options_update_now":{
+    "message":"Actualiza ahora"
+  },
+  "options_add_filter_subscription":{
+    "message":"Añada una suscripción a un filtro"
+  },
+  "options_delete":{
+    "message":"Elimina"
+  },
+  "options_add_filter":{
+    "message":"Añade filtro"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Bloquea elemento por url"
+  },
+  "description":{
+    "message":"Bloqueador de anuncios gratis y mejorado. Elimina completamente TODOS los anuncios. Sin anuncios \"aceptables\" o anunciantes en lista blanca (sin filtrar). ¡Bloquea el rastreo, bloquea el malware!"
+  },
+  "shield_dont_show_again":{
+    "message":"No muestres este mensaje otra vez"
+  },
+  "shield_congrats":{
+    "message":"Felicidades!"
+  },
+  "shield_congratulations":{
+    "message":"Felicidades!"
+  },
+  "shield_got_no_ads":{
+    "message":"sin anuncios gracias a"
+  },
+  "shield_to_unlock":{
+    "message":"para desbloquear"
+  },
+  "shield_gold_shield":{
+    "message":"escudo dorado"
+  },
+  "shield_silver_shield":{
+    "message":"escudo plateado"
+  },
+  "shield_bronze_shield":{
+    "message":"escudo de bronce"
+  },
+  "shield_share_abu":{
+    "message":"Comparte AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"has ganado"
+  },
+  "shield_blocked_ads":{
+    "message":"anuncios bloqueados"
+  },
+  "shield_rate_us":{
+    "message":"Valóranos"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Contribuye a nuestro proyecto"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"hemos bloqueado más de $1 anuncios para ti y:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"reducido el tiempo de carga de la página en $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"reducido la carga máxima de la CPU en $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"reducido la carga máxima de la memoria en $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"No más anuncios con nuestro bloqueador de anuncios gratuito"
+  },
+  "store_ss_surf_faster":{
+    "message":"Navega más rápido, más seguro, más limpio, sin anuncios molestos!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"No más videoanuncios"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"No más anuncios de Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"No más banners de anuncios"
+  },
+  "store_ss_ads":{
+    "message":"anuncios"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Navega más rápido, más seguro, SIN ANUNCIOS"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"todos los molestos anuncios se acabaron!"
+  }
+}

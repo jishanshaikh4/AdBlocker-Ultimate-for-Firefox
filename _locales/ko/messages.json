@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"선택 모드"
+  },
+  "assistant_select_element_ext":{
+    "message":"페이지에 어떤 요소를 클릭 하거나 "
+  },
+  "assistant_select_element_cancel":{
+    "message":"선택 모드를 취소하십시오."
+  },
+  "assistant_block_element":{
+    "message":"요소 차단"
+  },
+  "assistant_block_element_explain":{
+    "message":"요소 차단 규칙 설정"
+  },
+  "assistant_extended_settings":{
+    "message":"고급 설정..."
+  },
+  "assistant_rule_parameters":{
+    "message":"규칙 매개 변수"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"모든 웹 사이트에 이 규칙을 적용"
+  },
+  "assistant_block_by_reference":{
+    "message":"URL에 따른 요소 차단"
+  },
+  "assistant_block_similar":{
+    "message":"유사한 요소 차단"
+  },
+  "assistant_block":{
+    "message":"차단"
+  },
+  "assistant_another_element":{
+    "message":"다른 요소를 선택합니다"
+  },
+  "assistant_preview":{
+    "message":"미리보기"
+  },
+  "assistant_preview_start":{
+    "message":"미리보기"
+  },
+  "assistant_preview_end":{
+    "message":"미리보기 완료"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"이 페이지에서 차단된 광고: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"애드블로커"
+  },
+  "options_antibanner_info":{
+    "message":"필터 규칙 개수: $1"
+  },
+  "options_whitelist":{
+    "message":"화이트리스트"
+  },
+  "options_modal_cancel":{
+    "message":"취소"
+  },
+  "options_modal_homepage":{
+    "message":"홈페이지"
+  },
+  "options_userfilter":{
+    "message":"사용자 필터"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"새 규칙 추가"
+  },
+  "options_userfilter_export":{
+    "message":"내보내기"
+  },
+  "options_userfilter_import":{
+    "message":"가져오기"
+  },
+  "options_userfilter_clear":{
+    "message":"초기화"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"사용자 필터를 초기화하면 모든 규칙이 제거됩니다. 사용자 필터를 초기화하겠습니까?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"화이트리스트를 초기화하면 모든 규칙이 제거됩니다. 화이트리스트를 초기화하겠습니까?"
+  },
+  "options_filter_version":{
+    "message":"버전 $1. 업데이트 일시 $2 $3"
+  },
+  "options_popup_update_title":{
+    "message":"성공적으로 필터를 업데이트하였습니다."
+  },
+  "options_popup_update_not_found":{
+    "message":"업데이트가 없습니다."
+  },
+  "options_popup_update_error":{
+    "message":"업데이트를 불러오지 못했습니다. 나중에 다시 시도하십시오."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\"가 $2 버전으로 업데이트 되었습니다."
+  },
+  "popup_block_site_ads":{
+    "message":"이 웹사이트의 광고를 차단"
+  },
+  "popup_security_report":{
+    "message":"웹사이트 보안 보고서"
+  },
+  "popup_open_settings":{
+    "message":"AdBlocker Ultimate 설정"
+  },
+  "popup_site_protection_disabled":{
+    "message":"AdBlocker Ultimate 보호가 일시 중지되었습니다."
+  },
+  "popup_site_filtering_state":{
+    "message":"이 웹사이트에 대한 보호"
+  },
+  "popup_block_site_ads_android":{
+    "message":"이 웹사이트의 광고를 차단"
+  },
+  "popup_security_report_android":{
+    "message":"보안 보고서"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"보호 일시 중지"
+  },
+  "popup_open_log_android":{
+    "message":"필터링 로그"
+  },
+  "popup_tab_blocked":{
+    "message":"차된됨: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"전체: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"이 페이지에서 광고가 제거되었습니다"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"$1에 의해 보호되었습니다"
+  },
+  "context_block_site_ads":{
+    "message":"이 웹사이트의 광고를 차단"
+  },
+  "context_block_site_element":{
+    "message":"요소 차단..."
+  },
+  "context_abuse_site":{
+    "message":"이 웹사이트에 대한 불만 제출..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"이 페이지에서 광고가 제거되었습니다"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"$1에 의해 보호되었습니다"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate은 이 도메인에서 실행할 수 없습니다"
+  },
+  "context_site_protection_disabled":{
+    "message":"AdBlocker Ultimate 보호가 일시 중지되었습니다."
+  },
+  "context_open_settings":{
+    "message":"AdBlocker Ultimate 설정..."
+  },
+  "context_site_exception":{
+    "message":"이 웹사이트는 예외 대상입니다"
+  },
+  "context_site_filtering_on":{
+    "message":"이 웹사이트를 필터합니다"
+  },
+  "context_site_filtering_off":{
+    "message":"이 웹사이트를 필터하지 않습니다"
+  },
+  "context_update_antibanner_filters":{
+    "message":"필터 업데이트 확인"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"필터 자동 활성화"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1»가 자동으로 활성화되었습니다"
+  },
+  "filter_download_title":{
+    "message":"필터 데이터베이스 로드 중..."
+  },
+  "filter_download_loading":{
+    "message":"필터 데이터베이스를 로드하는 동안 잠시 기다려주십시오..."
+  },
+  "abu_product_windows":{
+    "message":"윈도우용 AdBlocker Ultimate"
+  },
+  "abu_product_mac":{
+    "message":"맥(Mac)용 AdBlocker Ultimate"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: $1 구독을 활성화 하시겠습니까?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: $1에서 규칙을 사용자 필터로 가져오시겠습니까?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"성공적으로 가져오기를 완료하였습니다"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate가 사용자 필터로 규칙 가져오기를 완료했습니다. 추가된 규칙 개수: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"이 사이트에서 <strong>활성<\/strong>"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"이 사이트에서 <strong>비활성<\/strong>"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"이 사이트에서 <strong>$1<\/strong>"
+  },
+  "browser_action_popup_in_total":{
+    "message":"전체 <strong>$1<\/strong>"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"아이콘에 숫자 표시"
+  },
+  "browser_action_popup_options":{
+    "message":"설정"
+  },
+  "browser_action_popup_block_element":{
+    "message":"요소 차단"
+  },
+  "browser_action_popup_donate":{
+    "message":"후원하기"
+  },
+  "browser_action_ads_blocked":{
+    "message":"광고 차단됨"
+  },
+  "options_title":{
+    "message":"AdBlocker Ultimate 설정"
+  },
+  "options_filter_list":{
+    "message":"필터 목록"
+  },
+  "options_add_your_filters":{
+    "message":"사용자 필터 추가"
+  },
+  "options_whitelisted_domains":{
+    "message":"허용된 도메인"
+  },
+  "options_general":{
+    "message":"일반"
+  },
+  "options_enable_only":{
+    "message":"필요한 구독 필터만 추가하십시오. 구독 필터가 과도하게 많으면 브라우저가 응답하지 않을 수 있습니다."
+  },
+  "options_out_of_date_lists":{
+    "message":"오래 된 목록은 주기적으로 업데이트 됩니다."
+  },
+  "options_enabled":{
+    "message":"사용"
+  },
+  "options_please_choose":{
+    "message":"목록에서 구독할 필터를 선택하십시오:"
+  },
+  "options_add":{
+    "message":"추가"
+  },
+  "options_subscription_title":{
+    "message":"구독 이름:"
+  },
+  "options_filter_list_location":{
+    "message":"필터 목록 위치:"
+  },
+  "options_abu_is_disabled":{
+    "message":"Adblocker Ultimate은 아래에 나열된 도메인에 대해 비활성됩니다. Adblock Ultimate 아이콘을 통해 도메인을 추가하거나 상자 안에 도메인(URL이 아닌)를 입력하고 \"도메인 추가\" 버튼을 클릭하여 도메인을 추가할 수 있습니다."
+  },
+  "options_add_domain":{
+    "message":"도메인 추가"
+  },
+  "options_remove_selected":{
+    "message":"선택 항목 제거"
+  },
+  "options_apply_changes":{
+    "message":"변경 내용 적용"
+  },
+  "options_show_block_element":{
+    "message":"'요소 차단' 우클릭 메뉴 항목 보이기"
+  },
+  "options_show_useful_notifications":{
+    "message":"유용한 알림 표시"
+  },
+  "options_update_now":{
+    "message":"지금 업데이트"
+  },
+  "options_add_filter_subscription":{
+    "message":"필터 구독 추가"
+  },
+  "options_delete":{
+    "message":"제거"
+  },
+  "options_add_filter":{
+    "message":"필터 추가"
+  },
+  "assistant_block_element_by_url":{
+    "message":"URL에 따른 요소 차단"
+  },
+  "description":{
+    "message":"향상된 무료 애드블로커. 모든 광고를 완전히 차단합니다. \"용인할 만한\" 광고 또는 허용된 광고주 리스트가 없고 사용자 추적과 악성 코드를 차단합니다."
+  },
+  "shield_dont_show_again":{
+    "message":"이 메시지를 다시 표시하지 않음"
+  },
+  "shield_congrats":{
+    "message":"축 하!"
+  },
+  "shield_congratulations":{
+    "message":"축하합니다!"
+  },
+  "shield_got_no_ads":{
+    "message":"모든 광고가 차단되었습니다"
+  },
+  "shield_to_unlock":{
+    "message":"잠금 해제"
+  },
+  "shield_gold_shield":{
+    "message":"골드 쉴드"
+  },
+  "shield_silver_shield":{
+    "message":"실버 쉴드"
+  },
+  "shield_bronze_shield":{
+    "message":"브론즈 쉴드"
+  },
+  "shield_share_abu":{
+    "message":"AdBlocker Ultimate 공유하기"
+  },
+  "shield_you_won":{
+    "message":"획득"
+  },
+  "shield_blocked_ads":{
+    "message":"광고 차단"
+  },
+  "shield_rate_us":{
+    "message":"평가하기"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"프로젝트에 기여하기"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"$1 이상의 광고를 차단하였습니다, 또한:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"로드 시간을 $1 감소"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"피크 CPU 사용률 $1 감소"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"피크 메모리 사용률 $1 감소"
+  },
+  "store_ss_no_more_ads":{
+    "message":"광고 없는 인터넷"
+  },
+  "store_ss_surf_faster":{
+    "message":"성가신 광고 없이 더 빠르게, 안전하게, 깔끔하게 서프하십시오!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"동영상 광고 차단"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"페이스북 광고 차단"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"배너 광고 차단"
+  },
+  "store_ss_ads":{
+    "message":"광고"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"광고 없이 더 빠르게, 안전하게 서프하십시오"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"그리고 모든 성가신 광고를 차단!"
+  }
+}

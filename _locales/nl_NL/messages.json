@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Selectiemodus"
+  },
+  "assistant_select_element_ext":{
+    "message":"Klik op een element op de pagina of "
+  },
+  "assistant_select_element_cancel":{
+    "message":"annuleer de selectiemodus"
+  },
+  "assistant_block_element":{
+    "message":"Element blokkeren"
+  },
+  "assistant_block_element_explain":{
+    "message":"Elementblokkerende regel instellen"
+  },
+  "assistant_extended_settings":{
+    "message":"Geavanceerde instellingen..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Regelparameters"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Deze regel op alle websites toepassen"
+  },
+  "assistant_block_by_reference":{
+    "message":"Element blokkeren via URL"
+  },
+  "assistant_block_similar":{
+    "message":"Soortgelijke elementen blokkeren"
+  },
+  "assistant_block":{
+    "message":"Blokkeren"
+  },
+  "assistant_another_element":{
+    "message":"Ander element selecteren"
+  },
+  "assistant_preview":{
+    "message":"Voorbeeld"
+  },
+  "assistant_preview_start":{
+    "message":"Voorbeeld"
+  },
+  "assistant_preview_end":{
+    "message":"Voorbeeld sluiten"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Geblokkeerde advertenties op deze pagina: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Adblocker"
+  },
+  "options_antibanner_info":{
+    "message":"Aantal filterregels: $1"
+  },
+  "options_whitelist":{
+    "message":"Witte lijst"
+  },
+  "options_modal_cancel":{
+    "message":"Annuleren"
+  },
+  "options_modal_homepage":{
+    "message":"Startpagina"
+  },
+  "options_userfilter":{
+    "message":"Gebruikersfilter"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Nieuwe regel toevoegen"
+  },
+  "options_userfilter_export":{
+    "message":"Exporteren"
+  },
+  "options_userfilter_import":{
+    "message":"Importeren"
+  },
+  "options_userfilter_clear":{
+    "message":"Wissen"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Wissen van het gebruikersfilter verwijdert alle regels. Wilt u het gebruikersfilter echt wissen?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Wissen van de witte lijst zal alle regels verwijderen. Weet u zeker dat u de witte lijst wilt wissen?"
+  },
+  "options_filter_version":{
+    "message":"Versie $1. Bijgewerkt op $2 om $3."
+  },
+  "options_popup_update_title":{
+    "message":"Filters zijn met succes bijgewerkt"
+  },
+  "options_popup_update_not_found":{
+    "message":"Geen updates gevonden"
+  },
+  "options_popup_update_error":{
+    "message":"Ophalen van updates is mislukt. Probeer het later opnieuw."
+  },
+  "options_popup_update_updated":{
+    "message":"'$1' is bijgewerkt naar versie $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Advertenties op deze website blokkeren"
+  },
+  "popup_security_report":{
+    "message":"Websitebeveiligingsrapport"
+  },
+  "popup_open_settings":{
+    "message":"AdBlocker Ultimate-instellingen"
+  },
+  "popup_site_protection_disabled":{
+    "message":"AdBlocker Ultimate-bescherming is gepauzeerd"
+  },
+  "popup_site_filtering_state":{
+    "message":"Bescherming op deze website"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Advertenties op een website blokkeren"
+  },
+  "popup_security_report_android":{
+    "message":"Beveiligingsrapport"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Bescherming is gepauzeerd"
+  },
+  "popup_open_log_android":{
+    "message":"Filterlogboek"
+  },
+  "popup_tab_blocked":{
+    "message":"Geblokkeerd: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Totaal: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Advertenties zijn van deze pagina verwijderd"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Beschermd door $1"
+  },
+  "context_block_site_ads":{
+    "message":"Advertentie op deze website blokkeren..."
+  },
+  "context_block_site_element":{
+    "message":"Element blokkeren..."
+  },
+  "context_abuse_site":{
+    "message":"Een klacht over deze website indienen..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Advertenties zijn van deze pagina verwijderd"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Beschermd door $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate kan niet op dit domein worden uitgevoerd"
+  },
+  "context_site_protection_disabled":{
+    "message":"AdBlocker Ultimate-bescherming is gepauzeerd"
+  },
+  "context_open_settings":{
+    "message":"AdBlocker Ultimate instellingen..."
+  },
+  "context_site_exception":{
+    "message":"Deze website bevindt zich in de uitzonderingen"
+  },
+  "context_site_filtering_on":{
+    "message":"Filteren op deze website inschakelen"
+  },
+  "context_site_filtering_off":{
+    "message":"Filteren op deze website uitschakelen"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Controleren op filterupdates"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Auto-activering van de filters"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"'$1' is automatisch geactiveerd"
+  },
+  "filter_download_title":{
+    "message":"Filterdatabase wordt geladen..."
+  },
+  "filter_download_loading":{
+    "message":"Een moment geduld, filterdatabase wordt geladen..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate voor Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate voor Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: wilt u het $1-abonnement activeren?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: wilt u regels van $1 naar uw gebruikersfilter importeren?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Importeren is met succes voltooid"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate heeft het importeren van regels naar het gebruikersfilter voltooid. Aantal geïmporteerde regels: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Ingeschakeld<\/strong> op deze website"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Uitgeschakeld<\/strong> op deze website"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> op deze pagina"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> in totaal"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Aantal in pictogram tonen"
+  },
+  "browser_action_popup_options":{
+    "message":"Opties"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Element blokkeren"
+  },
+  "browser_action_popup_donate":{
+    "message":"Doneren"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Geblokkeerde advertenties"
+  },
+  "options_title":{
+    "message":"AdBlocker Ultimate-opties"
+  },
+  "options_filter_list":{
+    "message":"Filterlijsten"
+  },
+  "options_add_your_filters":{
+    "message":"Eigen filters toevoegen"
+  },
+  "options_whitelisted_domains":{
+    "message":"Vertrouwde domeinen"
+  },
+  "options_general":{
+    "message":"Algemeen"
+  },
+  "options_enable_only":{
+    "message":"Schakel alleen de filterlijsten in die u nodig hebt. Te veel filterlijsten kunnen uw browser laten vastlopen."
+  },
+  "options_out_of_date_lists":{
+    "message":"Verouderde lijsten worden regelmatig bijgewerkt."
+  },
+  "options_enabled":{
+    "message":"Ingeschakeld"
+  },
+  "options_please_choose":{
+    "message":"Kies een filterabonnement uit de lijst:"
+  },
+  "options_add":{
+    "message":"Toevoegen"
+  },
+  "options_subscription_title":{
+    "message":"Titel van abonnement:"
+  },
+  "options_filter_list_location":{
+    "message":"Filterlijstlocatie:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate is voor de hieronder vermelde domeinen uitgeschakeld. U kunt een domein toevoegen via het AdBlocker Ultimate-pictogram in de adresbalk, of door het domein (geen URL) in het vak te typen en op de knop 'Domein toevoegen' te klikken."
+  },
+  "options_add_domain":{
+    "message":"Domein toevoegen"
+  },
+  "options_remove_selected":{
+    "message":"Geselecteerde verwijderen"
+  },
+  "options_apply_changes":{
+    "message":"Wijzigingen toepassen"
+  },
+  "options_show_block_element":{
+    "message":"Menu-item 'Element blokkeren' in contextmenu tonen"
+  },
+  "options_show_useful_notifications":{
+    "message":"Nuttige meldingen tonen"
+  },
+  "options_update_now":{
+    "message":"Nu bijwerken"
+  },
+  "options_add_filter_subscription":{
+    "message":"Filterabonnement toevoegen"
+  },
+  "options_delete":{
+    "message":"Verwijderen"
+  },
+  "options_add_filter":{
+    "message":"Filter toevoegen"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Element blokkeren via URL"
+  },
+  "description":{
+    "message":"Gratis en verbeterde adblocker. Volledig verwijderen van alle advertenties. Geen 'acceptabele' advertenties of adverteerders in een witte lijst, blokkeert tracking, blokkeert malware!"
+  },
+  "shield_dont_show_again":{
+    "message":"Dit bericht niet meer tonen"
+  },
+  "shield_congrats":{
+    "message":"Proficiat!"
+  },
+  "shield_congratulations":{
+    "message":"Gefeliciteerd!"
+  },
+  "shield_got_no_ads":{
+    "message":"geen advertenties meer dankzij"
+  },
+  "shield_to_unlock":{
+    "message":"te ontgrendelen"
+  },
+  "shield_gold_shield":{
+    "message":"gouden schild"
+  },
+  "shield_silver_shield":{
+    "message":"zilveren schild"
+  },
+  "shield_bronze_shield":{
+    "message":"bronzen schild"
+  },
+  "shield_share_abu":{
+    "message":"AdBlocker Ultimate delen:"
+  },
+  "shield_you_won":{
+    "message":"u wint een"
+  },
+  "shield_blocked_ads":{
+    "message":"geblokkeerde advertenties"
+  },
+  "shield_rate_us":{
+    "message":"Beoordelen"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Bijdragen aan ons project"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"we hebben meer dan $1 advertenties voor u geblokkeerd en:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"de laadtijd van uw pagina met $1 verminderd"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"het maximale CPU-gebruik met $1 verminderd"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"het maximale geheugengebruik met $1 verminderd"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Geen advertenties meer met onze gratis adblocker"
+  },
+  "store_ss_surf_faster":{
+    "message":"Surf sneller, veiliger, schoner, zonder de vervelende advertenties!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Geen videoadvertenties meer"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Geen Facebook-advertenties meer"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Geen banneradvertenties meer"
+  },
+  "store_ss_ads":{
+    "message":"advertenties"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Surf sneller en veiliger ZONDER ADVERTENTIES"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"en alle vervelende advertenties zijn verdwenen!"
+  }
+}

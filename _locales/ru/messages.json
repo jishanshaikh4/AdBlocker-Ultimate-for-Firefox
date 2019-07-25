@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Режим выбора"
+  },
+  "assistant_select_element_ext":{
+    "message":"Нажмите на любой элемент на странице или "
+  },
+  "assistant_select_element_cancel":{
+    "message":"отмените режим выбора"
+  },
+  "assistant_block_element":{
+    "message":"Элемент блока"
+  },
+  "assistant_block_element_explain":{
+    "message":"Элемент блокирования настройки правил"
+  },
+  "assistant_extended_settings":{
+    "message":"Расширенные настройки..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Параметры правил"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Применить это правило для каждого веб-сайта"
+  },
+  "assistant_block_by_reference":{
+    "message":"Блокировка элемента по URL"
+  },
+  "assistant_block_similar":{
+    "message":"Блокировка подобных элементов"
+  },
+  "assistant_block":{
+    "message":"Блокировка"
+  },
+  "assistant_another_element":{
+    "message":"Выбрать другой элемент"
+  },
+  "assistant_preview":{
+    "message":"Предварительный просмотр"
+  },
+  "assistant_preview_start":{
+    "message":"Предварительный просмотр"
+  },
+  "assistant_preview_end":{
+    "message":"Завершить предварительный просмотр"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Рекламные объявления заблокированы на этой странице: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Блокировщик рекламных объявлений"
+  },
+  "options_antibanner_info":{
+    "message":"Правила фильтрации: $1"
+  },
+  "options_whitelist":{
+    "message":"Белый список"
+  },
+  "options_modal_cancel":{
+    "message":"Отмена"
+  },
+  "options_modal_homepage":{
+    "message":"Главная страница"
+  },
+  "options_userfilter":{
+    "message":"Пользовательский фильтр"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Добавить новое правило"
+  },
+  "options_userfilter_export":{
+    "message":"Экспорт"
+  },
+  "options_userfilter_import":{
+    "message":"Импорт"
+  },
+  "options_userfilter_clear":{
+    "message":"Очистить"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Очистка фильтра пользователя удаляет все правила. Вы действительно хотите очистить пользовательский фильтр?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"При очистке белого списка будут удалены все правила. Вы уверены, что хотите очистить белый список?"
+  },
+  "options_filter_version":{
+    "message":"Версия $1. Обновлено $2 в $3."
+  },
+  "options_popup_update_title":{
+    "message":"Фильтры успешно обновлены"
+  },
+  "options_popup_update_not_found":{
+    "message":"Не найдено обновлений"
+  },
+  "options_popup_update_error":{
+    "message":"Не удалось получить обновления. Пожалуйста, попробуйте ещё раз позже."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" обновлён до версии $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Блокировать рекламу на этом веб-сайте"
+  },
+  "popup_security_report":{
+    "message":"Отчёт о безопасноти веб-сайта"
+  },
+  "popup_open_settings":{
+    "message":"Настройки AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Защита AdBlocker Ultimate приостановлена"
+  },
+  "popup_site_filtering_state":{
+    "message":"Защита на этом веб-сайте"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Блокировать рекламные объявления на веб-сайте"
+  },
+  "popup_security_report_android":{
+    "message":"Отчёт о безопасности"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Защита приостановлена"
+  },
+  "popup_open_log_android":{
+    "message":"Фильтрация записей в журнале"
+  },
+  "popup_tab_blocked":{
+    "message":"Заблокировано: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Итого: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Рекламные объявления были удалены с этой страницы"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Защищенные от $1"
+  },
+  "context_block_site_ads":{
+    "message":"Блокировать рекламные объявления на этом веб-сайте..."
+  },
+  "context_block_site_element":{
+    "message":"Заблокировать элемент..."
+  },
+  "context_abuse_site":{
+    "message":"Подать жалобу на этот веб-сайт..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Рекламные объявления были удалены с этой страницы"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Защищено $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate не может быть использован на этом домене"
+  },
+  "context_site_protection_disabled":{
+    "message":"Защита AdBlocker Ultimate приостановлена"
+  },
+  "context_open_settings":{
+    "message":"Настройки AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Этот веб-сайт находится в исключениях"
+  },
+  "context_site_filtering_on":{
+    "message":"Включить фильтрацию на этом веб-сайте"
+  },
+  "context_site_filtering_off":{
+    "message":"Отключить фильтрацию на этом веб-сайте"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Проверить наличие обновлений фильтров"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Автоматическое включение фильтров"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» был автоматически активирован"
+  },
+  "filter_download_title":{
+    "message":"База данных фильтров загружается..."
+  },
+  "filter_download_loading":{
+    "message":"Подождите, пожалуйста, пока устанавливается база данных фильтров..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate для Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate для Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: Вы хотите подписаться на $1 рассылку?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: Вы хотите импортировать правила из $1 в Ваш пользовательский фильтр?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Импорт был успешно завершён"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate закончил импортировать правила a пользовательский фильтр. Количество импортированных правил: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Включено<\/strong> на этом сайте"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Отключено<\/strong> на этом сайте"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> на этой странице"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> всего"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Количество в изображении"
+  },
+  "browser_action_popup_options":{
+    "message":"Настройки"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Элемент блока"
+  },
+  "browser_action_popup_donate":{
+    "message":"Помощь проекту"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Реклама блокирована"
+  },
+  "options_title":{
+    "message":"Настройки AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Список фильтров"
+  },
+  "options_add_your_filters":{
+    "message":"Добавить свои собственные фильтры"
+  },
+  "options_whitelisted_domains":{
+    "message":"Домены, состоящие в белом списке"
+  },
+  "options_general":{
+    "message":"Общие"
+  },
+  "options_enable_only":{
+    "message":"Включить только необходимые Вам списки фильтров. Из-за слишком большого количества Ваш браузер может перестать отвечать на запросы."
+  },
+  "options_out_of_date_lists":{
+    "message":"Устаревшие списки периодически обновляются."
+  },
+  "options_enabled":{
+    "message":"Включено"
+  },
+  "options_please_choose":{
+    "message":"Пожалуйста, выберите подписку на фильтр из списка:"
+  },
+  "options_add":{
+    "message":"Добавить"
+  },
+  "options_subscription_title":{
+    "message":"Название подписки:"
+  },
+  "options_filter_list_location":{
+    "message":"Расположение списка фильтров:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate не действует на домены, перечисленные ниже. Вы можете добавить домен также посредством значка AdBlocker Ultimate в адресной строке или набрав домен (не URL) в окне и щёлкнув на кнопку \"Добавить домен\"."
+  },
+  "options_add_domain":{
+    "message":"Добавить домен"
+  },
+  "options_remove_selected":{
+    "message":"Удалить выбранное"
+  },
+  "options_apply_changes":{
+    "message":"Применить изменения"
+  },
+  "options_show_block_element":{
+    "message":"Показывать \"Заблокировать Элемент\", кликнув правой кнопкой мыши на элемент меню"
+  },
+  "options_show_useful_notifications":{
+    "message":"Показывать полезные уведомления"
+  },
+  "options_update_now":{
+    "message":"Обновит сейчас"
+  },
+  "options_add_filter_subscription":{
+    "message":"Добавить подписку"
+  },
+  "options_delete":{
+    "message":"Удалить"
+  },
+  "options_add_filter":{
+    "message":"Добавить фильтр"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Заблокировать элемент по URL"
+  },
+  "description":{
+    "message":"Бесплатный и улучшенный блокировщик рекламы. Полностью удаляет ВСЮ рекламу. Отсутствуют \"разрешённые\" рекламные объявления или белые списки, блокировка слежения и вредоносного ПО!"
+  },
+  "shield_dont_show_again":{
+    "message":"Не показывать это сообщение снова"
+  },
+  "shield_congrats":{
+    "message":"Поздравляем!"
+  },
+  "shield_congratulations":{
+    "message":"Примите наши поздравления!"
+  },
+  "shield_got_no_ads":{
+    "message":"не получать рекламные объявления на"
+  },
+  "shield_to_unlock":{
+    "message":"разблокировать"
+  },
+  "shield_gold_shield":{
+    "message":"золотой барьер"
+  },
+  "shield_silver_shield":{
+    "message":"серебряный барьер"
+  },
+  "shield_bronze_shield":{
+    "message":"бронзовый барьер"
+  },
+  "shield_share_abu":{
+    "message":"Поделиться AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"Вы победили"
+  },
+  "shield_blocked_ads":{
+    "message":"заблокированные объявления"
+  },
+  "shield_rate_us":{
+    "message":"Оцените нас"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Участвуйте в работе нашего проекта"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"мы заблокировали более $1 рекламных объявлений для Вас и:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"уменьшили время загрузки страницы с помощью $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"уменьшили время наибольшей загрузки CPU $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"уменьшили максимальное использование памяти $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Больше никакой рекламы с нашим бесплатным блокировщиком рекламы"
+  },
+  "store_ss_surf_faster":{
+    "message":"Просматривайте интернет-страницы быстрее, безопаснее, чище, без назойливой рекламы!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Больше никаких рекламных видеороликов"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Больше никакой рекламы Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Больше никаких рекламных баннеров"
+  },
+  "store_ss_ads":{
+    "message":"рекламные объявления"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Просматривайте интернет-страницы быстрее, безопаснее БЕЗ РЕКЛАМЫ"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"и вся раздражающая реклама отсутствует!"
+  }
+}

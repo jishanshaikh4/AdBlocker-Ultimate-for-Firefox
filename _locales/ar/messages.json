@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"وضع الإختيار"
+  },
+  "assistant_select_element_ext":{
+    "message":"انقر فوق أي عنصر في الصفحة أو "
+  },
+  "assistant_select_element_cancel":{
+    "message":"إلغاء وضع الاختيار"
+  },
+  "assistant_block_element":{
+    "message":"منع عنصر"
+  },
+  "assistant_block_element_explain":{
+    "message":"إعداد القاعدة حظر عنصر"
+  },
+  "assistant_extended_settings":{
+    "message":"إعدادات متقدمة..."
+  },
+  "assistant_rule_parameters":{
+    "message":"تحكم فى المعاملات"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"تطبيق هذه القاعدة على كل موقع ويب"
+  },
+  "assistant_block_by_reference":{
+    "message":"حظر العنصر بواسطة url"
+  },
+  "assistant_block_similar":{
+    "message":"حظر العناصر المشابهة"
+  },
+  "assistant_block":{
+    "message":"حظر"
+  },
+  "assistant_another_element":{
+    "message":"اختار عنصر آخر"
+  },
+  "assistant_preview":{
+    "message":"معاينة"
+  },
+  "assistant_preview_start":{
+    "message":"معاينة"
+  },
+  "assistant_preview_end":{
+    "message":"إنهاء المعاينة"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"الإعلانات المحظورة فى هذه الصفحة: 1$"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"مانع الإعلانات"
+  },
+  "options_antibanner_info":{
+    "message":"مرشح القواعد يعد: 1$"
+  },
+  "options_whitelist":{
+    "message":"القائمة البيضاء"
+  },
+  "options_modal_cancel":{
+    "message":"إلغاء"
+  },
+  "options_modal_homepage":{
+    "message":"الصفحة الرئيسية"
+  },
+  "options_userfilter":{
+    "message":"مستخدم فلتر"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"إضافة قاعدة جديدة"
+  },
+  "options_userfilter_export":{
+    "message":"استخراج"
+  },
+  "options_userfilter_import":{
+    "message":"استيراد"
+  },
+  "options_userfilter_clear":{
+    "message":"خال"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"مسح عامل التصفية للمستخدم يزيل كافة القواعد. هل تريد حقاً مسح عامل التصفية للمستخدم؟"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"مسح القائمة البيضاء سيتم حذف كافة القواعد. هل أنت متأكد من أنك تريد مسح القائمة البيضاء؟"
+  },
+  "options_filter_version":{
+    "message":"الإصدار 1$. تحديث 2$ 3$."
+  },
+  "options_popup_update_title":{
+    "message":"تم تحديث معاملات التصفية بنجاح"
+  },
+  "options_popup_update_not_found":{
+    "message":"لا توجد تحديثات"
+  },
+  "options_popup_update_error":{
+    "message":"فشل الحصول على التحديثات. الرجاء المحاولة مرة أخرى لاحقاً."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" تحديث إلى الإصدار 2$"
+  },
+  "popup_block_site_ads":{
+    "message":"حظر الإعلانات على هذا الموقع"
+  },
+  "popup_security_report":{
+    "message":"تقرير الآمان للموقع"
+  },
+  "popup_open_settings":{
+    "message":"AdBlocker Ultimate إعدادات"
+  },
+  "popup_site_protection_disabled":{
+    "message":"الحمايةAdBlocker Ultimateتوقفة مؤقتاً"
+  },
+  "popup_site_filtering_state":{
+    "message":"حماية في هذا الموقع"
+  },
+  "popup_block_site_ads_android":{
+    "message":"حظر الإعلانات على موقع على شبكة الإنترنت"
+  },
+  "popup_security_report_android":{
+    "message":"تقرير الأمان"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"الحماية توقفت"
+  },
+  "popup_open_log_android":{
+    "message":"سجل التصفية"
+  },
+  "popup_tab_blocked":{
+    "message":"حظر: 1$"
+  },
+  "popup_tab_blocked_all":{
+    "message":"الإجمالى: 1$"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"الإعلانات قد أزيلت من هذه الصفحة"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"محمى بواسطة 1$"
+  },
+  "context_block_site_ads":{
+    "message":"حظر الإعلانات على هذا الموقع..."
+  },
+  "context_block_site_element":{
+    "message":"حظر عنصر..."
+  },
+  "context_abuse_site":{
+    "message":"تقديم شكوى حول هذا الموقع..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"الإعلانات قد أزيلت من هذه الصفحة"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"محمى بواسطة 1$"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate لا بمكن تشغيلة فى هذا النطاق"
+  },
+  "context_site_protection_disabled":{
+    "message":"الحمايةAdBlocker Ultimate متوقفة مؤقتاً"
+  },
+  "context_open_settings":{
+    "message":"AdBlocker Ultimate إعدادات..."
+  },
+  "context_site_exception":{
+    "message":"هذا الموقع في الاستثناءات"
+  },
+  "context_site_filtering_on":{
+    "message":"تمكين تصفية على هذا الموقع"
+  },
+  "context_site_filtering_off":{
+    "message":"تعطيل تصفية على هذا الموقع"
+  },
+  "context_update_antibanner_filters":{
+    "message":"التحقق من وجود تحديثات عامل تصفية"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"التنشيط التلقائي للمرشحات"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» قد تم تنشيطه تلقائياً"
+  },
+  "filter_download_title":{
+    "message":"يتم تحميل عوامل تصفية قاعدة البيانات..."
+  },
+  "filter_download_loading":{
+    "message":"الرجاء الانتظار بينما يتم تحميل عوامل تصفية قاعدة البيانات..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker النهائي ل Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate الخاص بنظام Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"Adblocker في نهاية المطاف: هل تريد تمكين الاشتراك $1؟"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"Adblocker في نهاية المطاف: هل تريد استيراد القواعد من $1 إلى عامل التصفية المستخدم الخاص بك؟"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"استيراد تم الانتهاء بنجاح"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"انتهى في نهاية المطاف AdBlocker استيراد القواعد إلى عامل التصفية المستخدم. استيراد عدد القواعد: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>مفعلة<\/strong> على هذا الموقع"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>مفعلة<\/strong> على هذا الموقع"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> في هذه الصفحة"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong> $1<\/strong> الإجمالى"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"إظهار الرقم في الأيقونة"
+  },
+  "browser_action_popup_options":{
+    "message":"الخيارات"
+  },
+  "browser_action_popup_block_element":{
+    "message":"منع عنصر"
+  },
+  "browser_action_popup_donate":{
+    "message":"تبرع"
+  },
+  "browser_action_ads_blocked":{
+    "message":"تم حجب الإعلان"
+  },
+  "options_title":{
+    "message":"خيارات AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"قوائم المرشحات"
+  },
+  "options_add_your_filters":{
+    "message":"أضف الفلاتر الخاصة بك"
+  },
+  "options_whitelisted_domains":{
+    "message":"نطاقات اللائحة البيضاء"
+  },
+  "options_general":{
+    "message":"عامّ"
+  },
+  "options_enable_only":{
+    "message":"فعّل قائمة الفلاتر التي تحتاجها فقط. الكثير منها بإمكانه جعل متصفحك لا يستجيب."
+  },
+  "options_out_of_date_lists":{
+    "message":"القوائم القديمة تحَّدث دورياً."
+  },
+  "options_enabled":{
+    "message":"ممكنة"
+  },
+  "options_please_choose":{
+    "message":"الرجاء اختيار اشتراك لفلتر من القائمة:"
+  },
+  "options_add":{
+    "message":"اضف"
+  },
+  "options_subscription_title":{
+    "message":"عنوان الإشتراك:"
+  },
+  "options_filter_list_location":{
+    "message":"موقع لائحة عوامل التصفية:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate معطل لهذه النطاقات المذكورة بالأسفل. ويمكنك أيضا إضافة نطاق من خلال أيقونة AdBlocker Ultimate فى شريط العنوان أو عن طريق كتابة النطاق(ليسurl) فى المربع والنقر على ذر إضافة نطاق."
+  },
+  "options_add_domain":{
+    "message":"أضف نطاق"
+  },
+  "options_remove_selected":{
+    "message":"إزالة المحدد"
+  },
+  "options_apply_changes":{
+    "message":"حفظ التغيرات"
+  },
+  "options_show_block_element":{
+    "message":"إظهار 'عنصر الحظر' عن طريق النقر على الذر الايمن فوق عنصر القائمة"
+  },
+  "options_show_useful_notifications":{
+    "message":"عرض إعلامات مفيدة"
+  },
+  "options_update_now":{
+    "message":"التحديث الآن"
+  },
+  "options_add_filter_subscription":{
+    "message":"إضافة اشتراك في عامل تصفية"
+  },
+  "options_delete":{
+    "message":"حذف"
+  },
+  "options_add_filter":{
+    "message":"إضافة فلتر"
+  },
+  "assistant_block_element_by_url":{
+    "message":"حظر العنصر بواسطة url"
+  },
+  "description":{
+    "message":"مانع الإعلانات المجانية وتحسين. إزالة جميع الإعلانات. لا إعلان \"مقبول\" أو المعلنين اللائحة البيضاء، كتلة التعقب، كتلة من البرامج الضارة!"
+  },
+  "shield_dont_show_again":{
+    "message":"لاتعرض هذه الرسالة مرة أخرى"
+  },
+  "shield_congrats":{
+    "message":"مبروك!"
+  },
+  "shield_congratulations":{
+    "message":"تهانينا!"
+  },
+  "shield_got_no_ads":{
+    "message":"حصلت على لا إعلان ذلك بفضل"
+  },
+  "shield_to_unlock":{
+    "message":"لفتح"
+  },
+  "shield_gold_shield":{
+    "message":"درع الذهب"
+  },
+  "shield_silver_shield":{
+    "message":"الدرع الفضي"
+  },
+  "shield_bronze_shield":{
+    "message":"درع برونزي"
+  },
+  "shield_share_abu":{
+    "message":"شارك AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"لقد ربحت"
+  },
+  "shield_blocked_ads":{
+    "message":"الإعلانات المحظورة"
+  },
+  "shield_rate_us":{
+    "message":"قم بتقييمنا"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"ساهم في مشروعنا"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"نحن نحظر أكثر من 1$ إعلان لك و:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"وانخفض وقت تحميل الصفحة الخاصة بك بمبلغ 1$"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"تقليل استخدام CPU الذروة بمبلغ 1$"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"وانخفض استخدام الذاكرة الذروة من 1$"
+  },
+  "store_ss_no_more_ads":{
+    "message":"لا يوجد المزيد من الإعلانات مع لدينا أدبلوكير الحرة"
+  },
+  "store_ss_surf_faster":{
+    "message":"تصفح أسرع وأكثر أماناً، وأنظف، دون إعلان مزعج!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"لا مزيد من إعلانات الفيديو"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"لا يوجد المزيد من إعلانات الفيس بوك"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"لا يوجد المزيد من الإعلانات لافتة"
+  },
+  "store_ss_ads":{
+    "message":"إعلانات"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"تصفح، أسرع وأكثر أمنا \"دون إعلانات\""
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"وجميع الإعلانات المزعجة!"
+  }
+}

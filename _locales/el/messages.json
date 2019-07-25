@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Λειτουργία επιλογής"
+  },
+  "assistant_select_element_ext":{
+    "message":"Κάντε κλικ σε οποιοδήποτε στοιχείο της σελίδας, ή "
+  },
+  "assistant_select_element_cancel":{
+    "message":"βγείτε απ' τη λειτουργία επιλογής"
+  },
+  "assistant_block_element":{
+    "message":"Αποκλεισμός του στοιχείου"
+  },
+  "assistant_block_element_explain":{
+    "message":"Δημιουργία κανόνα αποκλεισμού στοιχείου"
+  },
+  "assistant_extended_settings":{
+    "message":"Ρυθμίσεις για προχωρημένους..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Παραμετροποίηση κανόνα"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Εφαρμογή αυτού του κανόνα για όλες τις ιστοσελίδες"
+  },
+  "assistant_block_by_reference":{
+    "message":"Αποκλεισμός στοιχείου βάση διεύθυνσης url"
+  },
+  "assistant_block_similar":{
+    "message":"Αποκλεισμός παρόμοιων στοιχείων"
+  },
+  "assistant_block":{
+    "message":"Αποκλεισμός"
+  },
+  "assistant_another_element":{
+    "message":"Νέα επιλογή στοιχείου"
+  },
+  "assistant_preview":{
+    "message":"Προεπισκόπηση"
+  },
+  "assistant_preview_start":{
+    "message":"Προεπισκόπηση"
+  },
+  "assistant_preview_end":{
+    "message":"Έξοδος από προεπισκοπηση"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Διαφημίσεις σε αυτήν τη σελίδα που έχουν αποκλειστεί: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Ad blocker"
+  },
+  "options_antibanner_info":{
+    "message":"$1 φίλτρα"
+  },
+  "options_whitelist":{
+    "message":"Λίστα επιτρεπόμενων"
+  },
+  "options_modal_cancel":{
+    "message":"Ακύρωση"
+  },
+  "options_modal_homepage":{
+    "message":"Αρχική σελίδα"
+  },
+  "options_userfilter":{
+    "message":"Φίλτρα του χρήστη"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Προσθήκη νέου κανόνα"
+  },
+  "options_userfilter_export":{
+    "message":"Εξαγωγή"
+  },
+  "options_userfilter_import":{
+    "message":"Εισαγωγή"
+  },
+  "options_userfilter_clear":{
+    "message":"Διαγραφή"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Η διαγραφή του προσωπικού φίλτρου σημαίνει και διαγραφή όλων των κανόνων. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Η διαγραφή της λίστας επιτρεπομένων σημαίνει και διαγραφή όλων των κανόνων. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"
+  },
+  "options_filter_version":{
+    "message":"Έκδοση $1. Τελευταία ενημέρωση στις $2, ώρα $3."
+  },
+  "options_popup_update_title":{
+    "message":"Τα φίλτρα ενημερώθηκαν με επιτυχία"
+  },
+  "options_popup_update_not_found":{
+    "message":"Δεν βρέθηκαν ενημερώσεις"
+  },
+  "options_popup_update_error":{
+    "message":"Αποτυχία λήψης ενημέρψσης. Παρακαλώ δοκιμάστε αργότερα."
+  },
+  "options_popup_update_updated":{
+    "message":"Το \"$1\" αναβαθμίστηκε στην έκδοση $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Φραγή διαφημίσεων σε αυτήν την ιστοσελίδα"
+  },
+  "popup_security_report":{
+    "message":"Πληροφορίες ασφαλείας γι' αυτήν την ιστοσελίδα"
+  },
+  "popup_open_settings":{
+    "message":"Ρυθμίσεις του AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Έχετε απενεργοποιήσει προσωρινά το AdBlocker Ultimate"
+  },
+  "popup_site_filtering_state":{
+    "message":"Ενεργοποίηση προστασίας σε αυτήν την ιστοσελίδα"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Αποκλεισμός διαφημίσεων απ' την ιστοσελίδα"
+  },
+  "popup_security_report_android":{
+    "message":"Πληροφορίες ασφαλείας"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Προσωρινά απενεργοποιημένο"
+  },
+  "popup_open_log_android":{
+    "message":"Αρχείο φίλτραρίσματος"
+  },
+  "popup_tab_blocked":{
+    "message":"Αποκλεισμένα: $1 στοιχεία"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Σύνολο: $1 στοιχεία"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Οι διαφημίσεις αυτής της ιστοσελίδας έχουν αφαιρεθεί"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Προστασία απ' το $1"
+  },
+  "context_block_site_ads":{
+    "message":"Αποκλεισμός διαφημίσεων σε αυτήν την ιστοσελίδα..."
+  },
+  "context_block_site_element":{
+    "message":"Αποκλεισμός του στοιχείου..."
+  },
+  "context_abuse_site":{
+    "message":"Υποβάλλετε διαμαρτυρία γι' αυτήν την ιστοσελίδα..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Οι διαφημίσεις αυτής της ιστοσελίδας έχουν αφαιρεθεί"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Προστασία απ' το $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"Το AdBlocker Ultimate δεν μπορεί να λειτουργήσει σε αυτόν το domain"
+  },
+  "context_site_protection_disabled":{
+    "message":"Έχετε απενεργοποιήσει προσωρινά το AdBlocker Ultimate"
+  },
+  "context_open_settings":{
+    "message":"Ρυθμίσεις του AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Αυτή η ιστοσελίδα είναι στις εξαιρέσεις"
+  },
+  "context_site_filtering_on":{
+    "message":"Χρήση φίλτρων σε αυτήν την ιστοσελίδα"
+  },
+  "context_site_filtering_off":{
+    "message":"Απενεργοποίηση φίλτρων σε αυτήν την ιστοσελίδα"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Αναζήτηση για ενημερώσεις φίλτρων"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Αυτόματη ενεργοποίηση φίλτρων"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"Το «$1» έχει ενεργοποιηθεί αυτόματα"
+  },
+  "filter_download_title":{
+    "message":"Φόρτωση της βάσης δεδομένων για τα φίλτρα..."
+  },
+  "filter_download_loading":{
+    "message":"Παρακαλούμε περιμένετε να ολοκληρωθεί η φόρτωση της βάσης δεδομένων..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate για Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate για Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: θέλετε να ενεργοποιήσετε την εγγραφή στο $1;"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: θέλετε να εισάγετε τους κανόνες του $1 στο προσωπικό σας φίλτρο;"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Η εισαγωγή κανόνων ήταν επιτυχής"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"Το AdBlocker Ultimate εισήγαγε με επιτυχία τους κανόνες στο φίλτρο χρήστη. Κανόνες που εισάγαμε: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Ενεργό<\/strong> στη σελίδα"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Απενεργοποιημένο<\/strong> στη σελίδα"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> στη σελίδα"
+  },
+  "browser_action_popup_in_total":{
+    "message":"Σύνολο: <strong>$1<\/strong>"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Εμφάνιση αριθμού στο εικονίδιο"
+  },
+  "browser_action_popup_options":{
+    "message":"Επιλογές"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Αποκλεισμός του στοιχείου"
+  },
+  "browser_action_popup_donate":{
+    "message":"Κάντε κάποια Δωρεά"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Διαφημίσεις που αποκλείστηκαν"
+  },
+  "options_title":{
+    "message":"Επιλογές του AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Λίστες φίλτρων"
+  },
+  "options_add_your_filters":{
+    "message":"Προσθήκη δικών σας φίλτρων"
+  },
+  "options_whitelisted_domains":{
+    "message":"Λίστα επιτρεπόμενων domain"
+  },
+  "options_general":{
+    "message":"Γενικά"
+  },
+  "options_enable_only":{
+    "message":"Ενεργοποιήστε μόνο τις λίστες φίλτρων που χρειάζεστε. Υπερβολικά πολλές μπορεί να κάνουν τον περιηγητή σας να μην αποκρίνεται."
+  },
+  "options_out_of_date_lists":{
+    "message":"Μη ενημερωμένες λίστες ενημερώνονται περιοδικά."
+  },
+  "options_enabled":{
+    "message":"Ενεργοποιημένο"
+  },
+  "options_please_choose":{
+    "message":"Παρακαλώ επιλέξτε μια συνδρομή φίλτρου από την λίστα:"
+  },
+  "options_add":{
+    "message":"Προσθήκη"
+  },
+  "options_subscription_title":{
+    "message":"Τίτλος συνδρομής:"
+  },
+  "options_filter_list_location":{
+    "message":"Τοποθεσία λίστας φίλτρων:"
+  },
+  "options_abu_is_disabled":{
+    "message":"Το AdBlocker Ultimate έχει απενεργοποιηθεί για τα παρακάτω domain. Μπορείτε να προσθέσετε φίλτρο για ένα domain πατώντας το εικονίδιο του AdBlocker Ultimate στη γραμμή διευθύνσεων, ή πληκτρολογόντας το domain (όχι την URL) στο παρακάτω πεδίο και επιλέγοντας \"Προσθήκη domain\"."
+  },
+  "options_add_domain":{
+    "message":"Προσθήκη domain"
+  },
+  "options_remove_selected":{
+    "message":"Διαγραφή επιλεγμένων"
+  },
+  "options_apply_changes":{
+    "message":"Εφαρμογή αλλαγών"
+  },
+  "options_show_block_element":{
+    "message":"Εμφάνιση του \"Αποκλεισμός στοιχείου\" με δεξί κλικ"
+  },
+  "options_show_useful_notifications":{
+    "message":"Εμφάνιση χρήσιμων ειδοποιήσεων"
+  },
+  "options_update_now":{
+    "message":"Άμεση ενημέρωση"
+  },
+  "options_add_filter_subscription":{
+    "message":"Πρόσθηκη συνδρομής φίλτρων"
+  },
+  "options_delete":{
+    "message":"Διαγραφή"
+  },
+  "options_add_filter":{
+    "message":"Προσθήκη φίλτρου"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Αποκλεισμός στοιχείου βάση διεύθυνσης url"
+  },
+  "description":{
+    "message":"Δωρεάν, βελτιωμένος ad blocker. Αποκλείει ΌΛΕΣ τις διαφημίσεις. Δεν έχουμε \"ανεκτές\" διαφημίσεις, ούτε έτοιμη λίστα επιτρεπομένων. Αποκλεισμός tracking, αποκλεισμός malware!"
+  },
+  "shield_dont_show_again":{
+    "message":"Να μην εμφανιστεί ξανά αυτό το μήνυμα"
+  },
+  "shield_congrats":{
+    "message":"Συγχαρητήρια!"
+  },
+  "shield_congratulations":{
+    "message":"Συγχαρητήρια!"
+  },
+  "shield_got_no_ads":{
+    "message":"Χωρίς ενοχλητικές διαφημίσεις, χάρη στο"
+  },
+  "shield_to_unlock":{
+    "message":"για να ξεκλειδώσει"
+  },
+  "shield_gold_shield":{
+    "message":"η \"χρυσή ασπίδα\""
+  },
+  "shield_silver_shield":{
+    "message":"η \"ασημένια ασπίδα\""
+  },
+  "shield_bronze_shield":{
+    "message":"η \"χάκλινη ασπίδα\""
+  },
+  "shield_share_abu":{
+    "message":"Μοιραστείτε το AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"Έχετε κερδίσει"
+  },
+  "shield_blocked_ads":{
+    "message":"μπλοκαρισμένες διαφημίσεις"
+  },
+  "shield_rate_us":{
+    "message":"Αξιολογήστε μας"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Πάρτε μερος στο πρότζεκτ μας"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"Έχουμε μπλοκάρει για εσάς πάνω από $1 διαφημίσεις, και:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"μειώσαμε το χρόνο φόρτωσης σελίδας κατά $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"μειώσαμε τη μέγιστη χρήση CPU κατά $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"μειώσαμε τη μέγιστη χρήση μνήμης κάτα $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Τέλος στις ενοχλητικές διαφημίσεις χάρη στο δωρεάν adblocker μας"
+  },
+  "store_ss_surf_faster":{
+    "message":"Σερφάρετε το διαδίκτυο πιο γρήγορα, πιο καθαρά, χωρίς τις ενοχλητικές διαφημίσεις!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Τέλος στις βίντεο-διαφημίσεις"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Τέλος στις διαφημίσεις του Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Τέλος στα banner"
+  },
+  "store_ss_ads":{
+    "message":"διαφημίσεις"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Σερφάρετε το διαδίκτυο πιο γρήγορα, πιο καθαρά, ΧΩΡΙΣ ΔΙΑΦΗΜΙΣΕΙΣ"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"και όλες οι ενοχλητικές διαφημίσεις έχουν εξαφανιστεί!"
+  }
+}

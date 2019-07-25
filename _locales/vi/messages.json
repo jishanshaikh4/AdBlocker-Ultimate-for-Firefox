@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Chế độ chọn"
+  },
+  "assistant_select_element_ext":{
+    "message":"Nhấn vào bất kỳ phần tử nào trên trang hoặc "
+  },
+  "assistant_select_element_cancel":{
+    "message":"hủy bỏ chế độ chọn"
+  },
+  "assistant_block_element":{
+    "message":"Chặn phần tử"
+  },
+  "assistant_block_element_explain":{
+    "message":"Thiếp lập quy tắc chặn phần tử"
+  },
+  "assistant_extended_settings":{
+    "message":"Thiết lập nâng cao..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Các thông số của quy tắc"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Áp dụng quy tắc này với mọi trang web"
+  },
+  "assistant_block_by_reference":{
+    "message":"Chặn phần tử bằng url"
+  },
+  "assistant_block_similar":{
+    "message":"Chặn các phần tử tương tự"
+  },
+  "assistant_block":{
+    "message":"Chặn"
+  },
+  "assistant_another_element":{
+    "message":"Chọn phần tử khác"
+  },
+  "assistant_preview":{
+    "message":"Xem trước"
+  },
+  "assistant_preview_start":{
+    "message":"Xem trước"
+  },
+  "assistant_preview_end":{
+    "message":"Kết thúc xem trước"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Các quảng cáo đã chặn trên trang này: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Trình chặn quảng cáo"
+  },
+  "options_antibanner_info":{
+    "message":"Bộ đếm các quy tắc cho bộ lọc: $1"
+  },
+  "options_whitelist":{
+    "message":"Danh sách loại trừ"
+  },
+  "options_modal_cancel":{
+    "message":"Hủy bỏ"
+  },
+  "options_modal_homepage":{
+    "message":"Trang Chủ"
+  },
+  "options_userfilter":{
+    "message":"Bộ lọc của người dùng"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Thêm quy tắc mới"
+  },
+  "options_userfilter_export":{
+    "message":"Xuất Ra"
+  },
+  "options_userfilter_import":{
+    "message":"Nhập Vào"
+  },
+  "options_userfilter_clear":{
+    "message":"Xóa"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Xóa bộ lọc của người dùng sẽ gỡ bỏ tất cả các quy tắc trước đó. Bạn có thật sự muốn xóa bộ lọc của người dùng?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Xóa danh sách loại trừ sẽ xóa tất cả các quy tắc. Bạn có chắc chắn muốn xóa danh sách loại trừ không?"
+  },
+  "options_filter_version":{
+    "message":"Phiên bản $1. Đã cập nhật vào ngày $2 lúc $3."
+  },
+  "options_popup_update_title":{
+    "message":"Cập nhật bộ lọc thành công"
+  },
+  "options_popup_update_not_found":{
+    "message":"Không tìm thấy bản cập nhật nào"
+  },
+  "options_popup_update_error":{
+    "message":"Cập nhật thất bại. Hãy thử lại sau."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" đã cập nhật đến phiên bản $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Chặn quảng cáo trên trang web này"
+  },
+  "popup_security_report":{
+    "message":"Báo cáo về bảo mật của trang web"
+  },
+  "popup_open_settings":{
+    "message":"Thiết lập AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Tạm dừng bảo vệ bởi AdBlocker Ultimate"
+  },
+  "popup_site_filtering_state":{
+    "message":"Bảo vệ trên trang web này"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Chặn quảng cáo trên một trang web"
+  },
+  "popup_security_report_android":{
+    "message":"Báo cáo về bảo mật"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Tạm dừng bảo vệ"
+  },
+  "popup_open_log_android":{
+    "message":"Bản ghi nhật ký của bộ lọc"
+  },
+  "popup_tab_blocked":{
+    "message":"Đã chặn: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Tổng cộng: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Quảng cáo đã được gỡ bỏ khỏi trang web này"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Được bảo vệ bởi $1"
+  },
+  "context_block_site_ads":{
+    "message":"Chặn quảng cáo trên trang web này..."
+  },
+  "context_block_site_element":{
+    "message":"Chặn phần tử..."
+  },
+  "context_abuse_site":{
+    "message":"Nhập một đơn khiếu nại về trang web này..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Quảng cáo đã được gỡ bỏ khỏi trang web này"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Được bảo vệ bởi $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate không thể chạy trên tên miền này"
+  },
+  "context_site_protection_disabled":{
+    "message":"Tạm dừng bảo vệ bởi AdBlocker Ultimate"
+  },
+  "context_open_settings":{
+    "message":"Thiết lập AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Trang web này thuộc các trường hợp ngoại lệ"
+  },
+  "context_site_filtering_on":{
+    "message":"Kích hoạt bộ lọc trên trang web này"
+  },
+  "context_site_filtering_off":{
+    "message":"Vô hiệu hóa bộ lọc trên trang web này"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Kiểm tra cập nhật cho bộ lọc"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Tự động kích hoạt các bộ lọc"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» đã được tự động kích hoạt"
+  },
+  "filter_download_title":{
+    "message":"Đang tải cơ sở dữ liệu của các bộ lọc..."
+  },
+  "filter_download_loading":{
+    "message":"Hãy chờ trong khi đang tải cơ sở dữ liệu của các bộ lọc..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate cho Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate cho Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: bạn có muốn kích hoạt gói thuê bao $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: bạn có muốn nhập các quy tắc từ $1 vào bộ lọc người dùng của bạn không?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Đã nhập thành công"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate đã nhập các quy tắc vào bộ lọc người dùng. Số quy tắc đã nhập: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Đã kích hoạt<\/strong> trên trang web này"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Đã vô hiệu hóa<\/strong> trên trang web này"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> trên trang web này"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> trên tổng số"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Hiển thị số quảng cáo<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;đã chặn trên biểu tượng"
+  },
+  "browser_action_popup_options":{
+    "message":"Tùy chọn"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Chặn phần tử"
+  },
+  "browser_action_popup_donate":{
+    "message":"Đóng góp"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Các quảng cáo đã bị chặn"
+  },
+  "options_title":{
+    "message":"Thiết Lập AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Danh sách bộ lọc"
+  },
+  "options_add_your_filters":{
+    "message":"Thêm bộ lọc của bạn"
+  },
+  "options_whitelisted_domains":{
+    "message":"Các tên miền được loại trừ"
+  },
+  "options_general":{
+    "message":"Tổng quát"
+  },
+  "options_enable_only":{
+    "message":"Chỉ kích hoạt những danh sách bộ lọc mà bạn cần. Quá nhiều bộ lọc có thể làm trình duyệt của bạn không đáp ứng kịp."
+  },
+  "options_out_of_date_lists":{
+    "message":"Các danh sách cũ đã được cập nhật định kỳ."
+  },
+  "options_enabled":{
+    "message":"Đã bật"
+  },
+  "options_please_choose":{
+    "message":"Vui lòng chọn một gói bộ lọc từ danh sách:"
+  },
+  "options_add":{
+    "message":"Thêm"
+  },
+  "options_subscription_title":{
+    "message":"Tiêu đề của gói:"
+  },
+  "options_filter_list_location":{
+    "message":"Vị trí của danh sách bộ lọc:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate bị vô hiệu hóa với những tên miền được liệt kê ở dưới. Bạn có thể thêm vào một tên miền thông qua biểu tượng AdBlocker Ultimate trên thanh địa chỉ hoặc bằng cách nhập tên miền đó (không phải nhập URL) vào trong khung và nhấn vào nút \"Thêm tên miền\"."
+  },
+  "options_add_domain":{
+    "message":"Thêm tên miền"
+  },
+  "options_remove_selected":{
+    "message":"Gỡ bỏ mục đã chọn"
+  },
+  "options_apply_changes":{
+    "message":"Áp dụng các thay đổi"
+  },
+  "options_show_block_element":{
+    "message":"Hiển thị mục 'Chặn Phần Tử' trong menu chuột phải"
+  },
+  "options_show_useful_notifications":{
+    "message":"Hiển thị các thông báo hữu ích"
+  },
+  "options_update_now":{
+    "message":"Cập nhật ngay"
+  },
+  "options_add_filter_subscription":{
+    "message":"Thêm gói bộ lọc"
+  },
+  "options_delete":{
+    "message":"Xóa"
+  },
+  "options_add_filter":{
+    "message":"Thêm bộ lọc"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Chặn phần tử bằng url"
+  },
+  "description":{
+    "message":"Trình chặn quảng cáo miễn phí và được cải tiến. Gỡ bỏ hoàn toàn TẤT CẢ quảng cáo. Không có quảng cáo \"được chấp nhận\" hay danh sách loại trừ một nhà quảng cáo nào, ngăn chặn theo dõi và các phần mềm độc hại!"
+  },
+  "shield_dont_show_again":{
+    "message":"Không hiện tin nhắn này nữa"
+  },
+  "shield_congrats":{
+    "message":"Chúc mừng!"
+  },
+  "shield_congratulations":{
+    "message":"Xin chúc mừng!"
+  },
+  "shield_got_no_ads":{
+    "message":"không còn quảng cáo nhờ"
+  },
+  "shield_to_unlock":{
+    "message":"để mở khóa"
+  },
+  "shield_gold_shield":{
+    "message":"khiên vàng"
+  },
+  "shield_silver_shield":{
+    "message":"khiên bạc"
+  },
+  "shield_bronze_shield":{
+    "message":"khiên đồng"
+  },
+  "shield_share_abu":{
+    "message":"Chia sẻ AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"bạn đã giành được"
+  },
+  "shield_blocked_ads":{
+    "message":"quảng cáo đã bị chặn"
+  },
+  "shield_rate_us":{
+    "message":"Đánh giá chúng tôi"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Đóng góp vào dự án của chúng tôi"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"chúng tôi đã chặn hơn $1 quảng cáo giúp bạn và:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"giảm $1 thời gian tải trang"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"giảm $1 lượng sử dụng CPU"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"giảm $1 lượng sử dụng bộ nhớ"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Không còn quảng cáo nữa với trình chặn quảng cáo của chúng tôi"
+  },
+  "store_ss_surf_faster":{
+    "message":"Lượt web nhanh hơn, an toàn hơn, sạch sẽ hơn, và không còn những quảng cáo phiền phức!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Không còn các quảng cáo trên video nữa"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Không còn các quảng cáo trên Facebook nữa"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Không còn các banner quảng cáo nữa"
+  },
+  "store_ss_ads":{
+    "message":"quảng cáo"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Lướt web nhanh hơn, an toàn hơn và KHÔNG CÒN QUẢNG CÁO"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"và tất cả những quảng cáo phiền phức đã biết mất!"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "assistant_select_element":{
+    "message":"Mod pilihan"
+  },
+  "assistant_select_element_ext":{
+    "message":"Klik mana-mana unsur pada laman atau "
+  },
+  "assistant_select_element_cancel":{
+    "message":"batalkan mod pilihan"
+  },
+  "assistant_block_element":{
+    "message":"Sekat unsur"
+  },
+  "assistant_block_element_explain":{
+    "message":"Persediaan penyekatan unsur"
+  },
+  "assistant_extended_settings":{
+    "message":"Tetapan lanjutan..."
+  },
+  "assistant_rule_parameters":{
+    "message":"Parameter peraturan"
+  },
+  "assistant_apply_rule_to_all_sites":{
+    "message":"Guna pakai peraturan ini pada setiap tapak web"
+  },
+  "assistant_block_by_reference":{
+    "message":"Sekat unsur mengikut URL"
+  },
+  "assistant_block_similar":{
+    "message":"Sekat unsur yang serupa"
+  },
+  "assistant_block":{
+    "message":"Sekat"
+  },
+  "assistant_another_element":{
+    "message":"Pilih unsur lain"
+  },
+  "assistant_preview":{
+    "message":"Pratonton"
+  },
+  "assistant_preview_start":{
+    "message":"Pratonton"
+  },
+  "assistant_preview_end":{
+    "message":"Selesaikan pratonton"
+  },
+  "name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "short_name":{
+	"message": "AdBlocker Ultimate"
+  },
+  "description_blocked":{
+    "message":"Iklan yang disekat pada halaman ini: $1"
+  },
+  "options_settings":{
+    "message":"AdBlocker Ultimate"
+  },
+  "options_antibanner":{
+    "message":"Penyekat iklan"
+  },
+  "options_antibanner_info":{
+    "message":"Jumlah peraturan penapis: $1"
+  },
+  "options_whitelist":{
+    "message":"Senarai putih"
+  },
+  "options_modal_cancel":{
+    "message":"Batal"
+  },
+  "options_modal_homepage":{
+    "message":"Laman utama"
+  },
+  "options_userfilter":{
+    "message":"Penapis pengguna"
+  },
+  "options_userfilter_description":{
+    "message":""
+  },
+  "options_userfilter_add_rule":{
+    "message":"Tambah peraturan baru"
+  },
+  "options_userfilter_export":{
+    "message":"Eksport"
+  },
+  "options_userfilter_import":{
+    "message":"Import"
+  },
+  "options_userfilter_clear":{
+    "message":"Bersihkan"
+  },
+  "options_userfilter_clear_confirm":{
+    "message":"Membersihkan penapis pengguna akan mengeluarkan kesemua peraturan. Adakah anda pasti untuk membersihkannya?"
+  },
+  "options_whitelistfilter_clear_confirm":{
+    "message":"Membersihkan senarai putih akan memadam kesemua peraturan. Adakah anda pasti untuk membersihkannya?"
+  },
+  "options_filter_version":{
+    "message":"Versi $1. Dikemas kini pada $2, $3."
+  },
+  "options_popup_update_title":{
+    "message":"Penapis berjaya dikemas kini"
+  },
+  "options_popup_update_not_found":{
+    "message":"Tiada kemas kini dijumpai"
+  },
+  "options_popup_update_error":{
+    "message":"Gagal mendapatkan kemas kini. Sila cuba lagi nanti."
+  },
+  "options_popup_update_updated":{
+    "message":"\"$1\" dikemas kini kepada versi $2"
+  },
+  "popup_block_site_ads":{
+    "message":"Sekat iklan pada tapak web"
+  },
+  "popup_security_report":{
+    "message":"Laporan keselamatan tapak web"
+  },
+  "popup_open_settings":{
+    "message":"Tetapan AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled":{
+    "message":"Perlindungan AdBlocker Ultimate dijedakan"
+  },
+  "popup_site_filtering_state":{
+    "message":"Perlindungan pada tapak web ini"
+  },
+  "popup_block_site_ads_android":{
+    "message":"Sekat iklan pada tapak web"
+  },
+  "popup_security_report_android":{
+    "message":"Laporan keselamatan"
+  },
+  "popup_site_protection_disabled_android":{
+    "message":"Perlindungan dijedakan"
+  },
+  "popup_open_log_android":{
+    "message":"Log penapisan"
+  },
+  "popup_tab_blocked":{
+    "message":"Disekat: $1"
+  },
+  "popup_tab_blocked_all":{
+    "message":"Jumlah: $1"
+  },
+  "popup_ads_has_been_removed":{
+    "message":"Iklan telah dikeluarkan daripada halaman ini"
+  },
+  "popup_ads_has_been_removed_by_abu":{
+    "message":"Dilindungi oleh $1"
+  },
+  "context_block_site_ads":{
+    "message":"Sekat iklan pada tapak web ini..."
+  },
+  "context_block_site_element":{
+    "message":"Sekat unsur..."
+  },
+  "context_abuse_site":{
+    "message":"Kemukakan aduan tentang tapak web ini..."
+  },
+  "context_ads_has_been_removed":{
+    "message":"Iklan telah dikeluarkan daripada halaman ini"
+  },
+  "context_ads_has_been_removed_by_abu":{
+    "message":"Dilindungi oleh $1"
+  },
+  "context_site_filtering_disabled":{
+    "message":"AdBlocker Ultimate tidak dapat berjalan pada domain ini"
+  },
+  "context_site_protection_disabled":{
+    "message":"Perlindungan AdBlocker Ultimate dijedakan"
+  },
+  "context_open_settings":{
+    "message":"Tetapan AdBlocker Ultimate..."
+  },
+  "context_site_exception":{
+    "message":"Tapak web ini adalah dalam pengecualian"
+  },
+  "context_site_filtering_on":{
+    "message":"Dayakan penapisan pada tapak web ini"
+  },
+  "context_site_filtering_off":{
+    "message":"Lumpuhkan penapisan pada tapak web ini"
+  },
+  "context_update_antibanner_filters":{
+    "message":"Semak pengemaskinian penapis"
+  },
+  "alert_popup_filter_enabled_title":{
+    "message":"Pengaktifan automatik penapis"
+  },
+  "alert_popup_filter_enabled_text":{
+    "message":"«$1» telah diaktifkan secara automatik"
+  },
+  "filter_download_title":{
+    "message":"Memuatkan pangkalan data penapis..."
+  },
+  "filter_download_loading":{
+    "message":"Sila tunggu sementara pangkalan data penapis dimuatkan..."
+  },
+  "abu_product_windows":{
+    "message":"AdBlocker Ultimate untuk Windows"
+  },
+  "abu_product_mac":{
+    "message":"AdBlocker Ultimate untuk Mac"
+  },
+  "abu_subscribe_confirm_enable":{
+    "message":"AdBlocker Ultimate: Adakah anda ingin mengaktifkan langganan $1?"
+  },
+  "abu_subscribe_confirm_import":{
+    "message":"AdBlocker Ultimate: Adakah anda ingin mengimport peraturan daripada $1 untuk penapis pengguna anda?"
+  },
+  "abu_subscribe_confirm_import_finished_title":{
+    "message":"Proses import berjaya diselesaikan"
+  },
+  "abu_subscribe_confirm_import_finished_text":{
+    "message":"AdBlocker Ultimate telah selesai mengimport peraturan untuk penapis pengguna. Bilangan peraturan yang diimport: $1"
+  },
+  "browser_action_popup_enabled_on_site":{
+    "message":"<strong>Didayakan<\/strong> pada tapak ini"
+  },
+  "browser_action_popup_disabled_on_site":{
+    "message":"<strong>Dilumpuhkan<\/strong> pada tapak ini"
+  },
+  "browser_action_popup_on_this_page":{
+    "message":"<strong>$1<\/strong> pada halaman ini"
+  },
+  "browser_action_popup_in_total":{
+    "message":"<strong>$1<\/strong> secara keseluruhan"
+  },
+  "browser_action_popup_show_number_in_icon":{
+    "message":"Tunjukkan bilangan pada ikon"
+  },
+  "browser_action_popup_options":{
+    "message":"Pilihan"
+  },
+  "browser_action_popup_block_element":{
+    "message":"Sekat unsur"
+  },
+  "browser_action_popup_donate":{
+    "message":"Sumbangan"
+  },
+  "browser_action_ads_blocked":{
+    "message":"Iklan yang disekat"
+  },
+  "options_title":{
+    "message":"Pilihan AdBlocker Ultimate"
+  },
+  "options_filter_list":{
+    "message":"Senarai penapis"
+  },
+  "options_add_your_filters":{
+    "message":"Tambah penapis anda sendiri"
+  },
+  "options_whitelisted_domains":{
+    "message":"Domain yang disenarai putih"
+  },
+  "options_general":{
+    "message":"Umum"
+  },
+  "options_enable_only":{
+    "message":"Dayakan senarai penapis yang anda perlukan sahaja. Pelayar anda boleh menjadi tidak responsif jika ia terlalu banyak."
+  },
+  "options_out_of_date_lists":{
+    "message":"Senarai lama akan dikemas kini secara berkala."
+  },
+  "options_enabled":{
+    "message":"Didayakan"
+  },
+  "options_please_choose":{
+    "message":"Sila pilih langganan penapis daripada senarai:"
+  },
+  "options_add":{
+    "message":"Tambah"
+  },
+  "options_subscription_title":{
+    "message":"Tajuk langganan:"
+  },
+  "options_filter_list_location":{
+    "message":"Lokasi senarai penapis:"
+  },
+  "options_abu_is_disabled":{
+    "message":"AdBlocker Ultimate dilumpuhkan untuk domain yang disenaraikan di bawah. Anda boleh menambah domain baru sama ada melalui ikon AdBlocker Ultimate di bar alamat atau dengan menaip domain tersebut (yang bukan URL) pada kotak dan klik butang \"Tambahkan domain\"."
+  },
+  "options_add_domain":{
+    "message":"Tambahkan domain"
+  },
+  "options_remove_selected":{
+    "message":"Keluarkan yang dipilih"
+  },
+  "options_apply_changes":{
+    "message":"Guna pakai perubahan"
+  },
+  "options_show_block_element":{
+    "message":"Tunjukkan item menu klik kanan 'Sekat unsur'"
+  },
+  "options_show_useful_notifications":{
+    "message":"Tunjukkan pemberitahuan berguna"
+  },
+  "options_update_now":{
+    "message":"Kemas kini sekarang"
+  },
+  "options_add_filter_subscription":{
+    "message":"Tambahkan langganan penapis"
+  },
+  "options_delete":{
+    "message":"Padam"
+  },
+  "options_add_filter":{
+    "message":"Tambahkan penapis"
+  },
+  "assistant_block_element_by_url":{
+    "message":"Sekat unsur mengikut URL"
+  },
+  "description":{
+    "message":"Penyekat iklan yang percuma dan diperbaiki. Mengeluarkan kesemua iklan. Tiada iklan yang boleh \"diterima\" atau pengiklan yang disenarai putih, menyekat penjejakan dan perisian hasad!"
+  },
+  "shield_dont_show_again":{
+    "message":"Jangan tunjukkan mesej ini lagi"
+  },
+  "shield_congrats":{
+    "message":"Tahniah!"
+  },
+  "shield_congratulations":{
+    "message":"Tahniah!"
+  },
+  "shield_got_no_ads":{
+    "message":"tidak mendapat iklan, terima kasih kepada"
+  },
+  "shield_to_unlock":{
+    "message":"untuk menyahkunci"
+  },
+  "shield_gold_shield":{
+    "message":"perisai emas"
+  },
+  "shield_silver_shield":{
+    "message":"perisai perak"
+  },
+  "shield_bronze_shield":{
+    "message":"perisai gangsa"
+  },
+  "shield_share_abu":{
+    "message":"Kongsikan AdBlocker Ultimate:"
+  },
+  "shield_you_won":{
+    "message":"anda memenangi"
+  },
+  "shield_blocked_ads":{
+    "message":"iklan yang disekat"
+  },
+  "shield_rate_us":{
+    "message":"Nilaikan kami"
+  },
+  "shield_contribute_to_our_project":{
+    "message":"Sumbangkan kepada projek kami"
+  },
+  "shield_we_blocked_more_than":{
+    "message":"kami menyekat lebih daripada $1 iklan untuk anda dan:"
+  },
+  "shield_decreased_your_page_load_time":{
+    "message":"mengurangkan masa muatan halaman anda sehingga $1"
+  },
+  "shield_decreased_peak_cpu_usage":{
+    "message":"mengurangkan penggunaan CPU puncak sehingga $1"
+  },
+  "shield_decreased_peak_memory_usage":{
+    "message":"mengurangkan penggunaan ingatan puncak sehingga $1"
+  },
+  "store_ss_no_more_ads":{
+    "message":"Tiada lagi iklan dengan penyekat iklan kami"
+  },
+  "store_ss_surf_faster":{
+    "message":"Layari internet dengan lebih pantas, lebih selamat dan lebih bersih, tanpa iklan yang mengganggu!"
+  },
+  "store_ss_no_more_video_ads":{
+    "message":"Tiada lagi iklan video"
+  },
+  "store_ss_no_more_facebook_ads":{
+    "message":"Tiada lagi iklan Facebook"
+  },
+  "store_ss_no_more_banner_ads":{
+    "message":"Tiada lagi iklan sepanduk"
+  },
+  "store_ss_ads":{
+    "message":"iklan"
+  },
+  "store_ss_surf_faster_with_no_ads":{
+    "message":"Layari, lebih pantas, lebih selamat dengan tiada iklan"
+  },
+  "store_ss_surf_and_all_annoying_ads":{
+    "message":"dan kesemua iklan yang mengganggu dikeluarkan!"
+  }
+}
