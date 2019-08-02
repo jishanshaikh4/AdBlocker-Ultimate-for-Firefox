@@ -40,7 +40,7 @@ You can drop us a line [here](https://adblockultimate.net/contact.html)
 
 ## License
 
-*Free. AdBlocker Ultimate is an open source project licensed under GPL v3. The first version was forked from AdGuard v. 2.8.2 on January 12, 2018 inheriting the GPL v3 license for open source.*
+*Free. AdBlocker Ultimate is an open source project licensed under GPL v3. The first version was forked from AdGuard v. 2.1.5 on February 15, 2016 inheriting the GPL v3 license for open source.*
 
 **Changes made to the source code**
 * Modified the source code to block ads on google.com, yahoo.com and others
