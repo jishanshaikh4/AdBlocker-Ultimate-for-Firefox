@@ -1,6 +1,6 @@
 <h1 align="center">
 <sub>
-<img src="https://github.com/adblockultimate/AdBlockUltimate-firefox/blob/master/icons/green-38.png" height="38" width="38">
+<img src="https://github.com/adblockultimate/AdBlockUltimate-firefox/blob/master/icons/38.png" height="38" width="38">
 </sub>
 AdBlocker Ultimate for Firefox
 </h1>
