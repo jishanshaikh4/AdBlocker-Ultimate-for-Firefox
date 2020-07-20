@@ -38,20 +38,20 @@ body {
   z-index: 99999;
 }
 .ultimate-container .header {
-	background: url("../img/adblockultimate.png")  5px 5px;
-	background-repeat:no-repeat;
-	background-size: 60px 60px;
-	padding: 10px 10px 10px 65px;
-	position: relative;
-	font-size: 14px;
-	line-height: 18px;
-	cursor: move;
-	width: 453px;
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+	background: url(../img/adblockultimate.png) 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    padding: 10px 10px 10px 78px;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: move;
+    width: 450px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .ultimate-close {
     float: right;

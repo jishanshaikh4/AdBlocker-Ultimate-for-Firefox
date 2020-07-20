@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="280px" height="280px" viewBox="0 0 280 280" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="-0.224757671" y1="-0.5967747" x2="1.2276988" y2="1.35183191" id="gradient_1">
+      <stop offset="0" stop-color="#2D79E6" />
+      <stop offset="1" stop-color="#053476" />
+    </linearGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="88.78216%" cy="0%" fx="88.78216%" fy="0%" r="154.651%" gradientTransform="translate(0.8878216,0),scale(1,0.9999999),rotate(125.0353),scale(1,0),translate(-0.8878216,0)" id="gradient_2">
+      <stop offset="0%" stop-color="#3D8BFF" />
+      <stop offset="100%" stop-color="#1B69C7" />
+    </radialGradient>
+    <linearGradient x1="0.8940656" y1="0.174516976" x2="0.815781653" y2="0.2556089" id="gradient_3">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.56078434" />
+    </linearGradient>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="7" dy="12" />
+      <feGaussianBlur stdDeviation="5.5" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.03921569 0 0 0 0 0.2392157 0 0 0 0 0.5333334 0 0 0 0.4 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <path d="M122.004 244.008C189.385 244.008 244.008 189.385 244.008 122.004C244.008 54.623 189.385 0 122.004 0C54.623 0 0 54.623 0 122.004C0 189.385 54.623 244.008 122.004 244.008Z" transform="translate(2.226318 4.897957)" id="path_1" />
+  </defs>
+  <g id="clock" transform="translate(15 15)">
+    <path d="M124.675 249.351C193.532 249.351 249.351 193.532 249.351 124.675C249.351 55.8191 193.532 0 124.675 0C55.8191 0 0 55.8191 0 124.675C0 193.532 55.8191 249.351 124.675 249.351Z" id="Oval" fill="url(#gradient_1)" stroke="none" />
+    <path d="M73.4694 146.939C114.045 146.939 146.939 114.046 146.939 73.4695C146.939 32.8934 114.045 0 73.4694 0C32.8934 0 0 32.8934 0 73.4695C0 114.046 32.8934 146.939 73.4694 146.939Z" transform="translate(50.76068 53.43231)" id="Oval" fill="#134C9D" stroke="none" />
+    <g filter="url(#filter_1)">
+      <g id="Oval">
+        <use xlink:href="#path_1" fill="none" stroke="url(#gradient_2)" stroke-width="30" />
+      </g>
+    </g>
+    <path d="M96.1782 192.356C149.296 192.356 192.356 149.296 192.356 96.1782C192.356 43.0604 149.296 0 96.1782 0C43.0604 0 0 43.0604 0 96.1782C0 149.296 43.0604 192.356 96.1782 192.356Z" transform="translate(28.052 30.72359)" id="Oval" fill="none" stroke="url(#gradient_3)" stroke-width="3" stroke-linecap="round" stroke-dasharray="0 34" />
+  </g>
+</svg>

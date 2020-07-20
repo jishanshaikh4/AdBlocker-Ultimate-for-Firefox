@@ -6,9 +6,13 @@
     <script type="text/javascript" src="lib/libs/deferred.min.js"></script>
     <script type="text/javascript" src="lib/utils/sha256.patched.js"></script>
     <script type="text/javascript" src="lib/utils/punycode.js"></script>
+	<script type="text/javascript" src="lib/libs/crypto-js/core.js"></script>
+    <script type="text/javascript" src="lib/libs/crypto-js/md5.js"></script>
+    <script type="text/javascript" src="lib/filter/rules/scriptlets/scriptlets.js"></script>
+    <script type="text/javascript" src="lib/filter/rules/scriptlets/redirects.js"></script>
 
-    <!--Adguard Global and preferences-->
-    <script type="text/javascript" src="lib/adguard.js"></script>
+    <!--ABU Global and preferences-->
+    <script type="text/javascript" src="lib/abu.js"></script>
     <script type="text/javascript" src="lib/prefs.js"></script>
 
     <!--Utils libraries-->
@@ -26,6 +30,8 @@
     <script type="text/javascript" src="lib/utils/local-storage.js"></script>
     <script type="text/javascript" src="lib/utils/rules-storage.js"></script>
     <script type="text/javascript" src="lib/storage.js"></script>
+
+    <script type="text/javascript" src="lib/abu-desktop.js"></script>
 
     <!--Chromium api adapter libraries-->
     <script type="text/javascript" src="lib/content-script/common-script.js"></script>
@@ -49,8 +55,10 @@
     <script type="text/javascript" src="lib/filter/rules/script-filter.js"></script>
     <script type="text/javascript" src="lib/filter/rules/url-filter-rule.js"></script>
     <script type="text/javascript" src="lib/filter/rules/url-filter.js"></script>
+    <script type="text/javascript" src="lib/filter/rules/composite-rule.js"></script>
     <script type="text/javascript" src="lib/filter/rules/csp-filter.js"></script>
     <script type="text/javascript" src="lib/filter/rules/filter-rule-builder.js"></script>
+    <script type="text/javascript" src="lib/filter/rules/scriptlet-rule.js"></script>
 
     <!--Filters metadata and filtration modules-->
     <script type="text/javascript" src="lib/filter/subscription.js"></script>
@@ -60,13 +68,10 @@
     <script type="text/javascript" src="lib/filter/filters.js"></script>
     <script type="text/javascript" src="lib/filter/antibanner.js"></script>
     <script type="text/javascript" src="lib/filter/request-blocking.js"></script>
+    <script type="text/javascript" src="lib/filter/rule-converter.js"></script>
 
-    <!--Various modules for safebrowsing, logging, integration, ui and etc-->
-    <script type="text/javascript" src="lib/filter/safebrowsing-filter.js"></script>
-    <script type="text/javascript" src="lib/filter/filters-hit.js"></script>
+    <!--Various modules for ui and etc-->
     <script type="text/javascript" src="lib/filter/locale-detect.js"></script>
-    <script type="text/javascript" src="lib/filter/integration.js"></script>
-    <script type="text/javascript" src="lib/filter/filtering-log.js"></script>
     <script type="text/javascript" src="lib/ui-service.js"></script>
 
     <!--Content messaging-->
