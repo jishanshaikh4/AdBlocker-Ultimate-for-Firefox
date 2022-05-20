@@ -76,8 +76,8 @@ body {
     *display: inline; /* IE7 inline-block hack */
     *zoom: 1;
     height: 20px;
-    margin: 5px 0px;
-    padding: 0px;
+    margin: 5px 0;
+    padding: 0;
 }
 
 .ultimate-container .header .head .reit li {
@@ -99,11 +99,11 @@ body {
 }
 
 .ultimate-container .header .head.txt {
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0 0;
 }
 
 .ultimate-container .header .head.txt a {
-    margin: 0px;
+    margin: 0;
 }
 
 .ultimate-container .header .head a {
@@ -118,11 +118,11 @@ body {
 }
 
 .ultimate-container .header .head > a > img {
-    border: 0px;
+    border: 0;
 }
 
 .ultimate-content {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     color: #fff;
 }
 
@@ -141,7 +141,7 @@ body {
 
  .ultimate-form-block {
     display: block;
-    margin: 5px 0px;
+    margin: 5px 0;
     background: none no-repeat scroll 0 0 #eee;
     padding: 10px;
 }
@@ -158,7 +158,7 @@ body {
     border: 1px solid #CCC;
     width: 99%;
     height: 18px;
-    margin: 4px 0px 0px 0px;
+    margin: 4px 0 0;
     border-radius: 2px;
     padding-left: 4px !important;
     padding-right: 4px !important;
@@ -175,7 +175,7 @@ body {
 }
 
 .ultimate-slide-block .ultimate-slide {
-    margin: 20px auto 0px;
+    margin: 20px auto 0;
     width: 386px;
     height: 32px;
     position: relative;
